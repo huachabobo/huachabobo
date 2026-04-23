@@ -1,0 +1,70 @@
+<svg width="960" height="144" viewBox="0 0 960 144" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lecia AgentOS heartbeat card</title>
+  <desc id="desc">A heartbeat themed status component for Lecia AgentOS showing the system is alive, steady, and operator-aware.</desc>
+  <defs>
+    <linearGradient id="bg" x1="42" y1="24" x2="918" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF8FC"/>
+      <stop offset="1" stop-color="#F7D8E4"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="568" y1="30" x2="896" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8F506A"/>
+      <stop offset="1" stop-color="#A86481"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="264" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4A2C1"/>
+      <stop offset="1" stop-color="#C96B93"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="960" height="144" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#B56B88" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .label {
+        font: 700 13px "Trebuchet MS", "Segoe UI", sans-serif;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        fill: #A55D7C;
+      }
+      .title {
+        font: 700 26px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #743B52;
+      }
+      .body {
+        font: 600 15px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #8B5970;
+      }
+      .chip {
+        font: 700 13px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #FFF7FB;
+      }
+    </style>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="28" y="22" width="904" height="102" rx="24" fill="url(#bg)"/>
+  </g>
+  <rect x="28.75" y="22.75" width="902.5" height="100.5" rx="23.25" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="1.5"/>
+
+  <rect x="60" y="46" width="136" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.88"/>
+  <text x="128" y="60" class="label" text-anchor="middle" dominant-baseline="middle">heartbeat / 心跳</text>
+
+  <text x="60" y="98" class="title">system alive / 系统在线</text>
+  <text x="60" y="118" class="body">steady docs, traceable runtime, calmer operator flow.</text>
+
+  <g transform="translate(560 36)">
+    <rect x="0" y="0" width="330" height="72" rx="20" fill="url(#panel)"/>
+    <rect x="0.75" y="0.75" width="328.5" height="70.5" rx="19.25" stroke="#FFDDE8" stroke-opacity="0.38" stroke-width="1.5"/>
+
+    <path d="M26 36H88L104 20L122 52L138 28L154 36H304" stroke="url(#pulse)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="154" cy="36" r="5.5" fill="#FFF4F9">
+      <animate attributeName="r" values="5.5;7.5;5.5" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <rect x="28" y="48" width="66" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.12"/>
+    <text x="61" y="56" class="chip" text-anchor="middle" dominant-baseline="middle">docs</text>
+    <rect x="104" y="48" width="84" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.12"/>
+    <text x="146" y="56" class="chip" text-anchor="middle" dominant-baseline="middle">runtime</text>
+    <rect x="198" y="48" width="92" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.12"/>
+    <text x="244" y="56" class="chip" text-anchor="middle" dominant-baseline="middle">approval</text>
+  </g>
+</svg>
