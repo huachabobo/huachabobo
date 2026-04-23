@@ -1,0 +1,115 @@
+<svg width="960" height="280" viewBox="0 0 960 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lecia AgentOS mini dashboard</title>
+  <desc id="desc">A compact dashboard card showing Lecia AgentOS progress, platform shape, priorities, and live status badges.</desc>
+  <defs>
+    <linearGradient id="panel" x1="52" y1="38" x2="910" y2="252" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF9FC"/>
+      <stop offset="1" stop-color="#F8D7E4"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="316" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C96B93"/>
+      <stop offset="1" stop-color="#EDB3C9"/>
+    </linearGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="196" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE9F2"/>
+      <stop offset="1" stop-color="#FFF9FC"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="960" height="280" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#B66B89" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .label {
+        font: 700 13px "Trebuchet MS", "Segoe UI", sans-serif;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        fill: #A35A7A;
+      }
+      .title {
+        font: 700 34px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #71394F;
+      }
+      .body {
+        font: 600 16px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #87546A;
+      }
+      .small {
+        font: 700 14px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #95556F;
+      }
+      .cardTitle {
+        font: 700 18px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #FFF7FB;
+      }
+      .cardBody {
+        font: 600 14px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #FFEAF3;
+      }
+      .chip {
+        font: 700 13px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #9D5977;
+      }
+    </style>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="28" y="26" width="904" height="228" rx="28" fill="url(#panel)"/>
+  </g>
+  <rect x="28.75" y="26.75" width="902.5" height="226.5" rx="27.25" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.5"/>
+
+  <g opacity="0.18">
+    <circle cx="84" cy="80" r="3.5" fill="#C96B93"/>
+    <circle cx="84" cy="110" r="3.5" fill="#C96B93"/>
+    <circle cx="84" cy="140" r="3.5" fill="#C96B93"/>
+    <circle cx="876" cy="198" r="3.5" fill="#FFFFFF"/>
+    <circle cx="848" cy="198" r="3.5" fill="#FFFFFF"/>
+    <circle cx="820" cy="198" r="3.5" fill="#FFFFFF"/>
+  </g>
+
+  <g>
+    <rect x="68" y="60" width="138" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.85"/>
+    <text x="137" y="75" class="label" text-anchor="middle" dominant-baseline="middle">mini dashboard</text>
+
+    <text x="68" y="126" class="title">Lecia AgentOS</text>
+    <text x="68" y="153" class="body">self-hosted agent systems, operator-first</text>
+
+    <text x="68" y="196" class="small">Current progress</text>
+    <text x="384" y="196" class="small" text-anchor="end">70%</text>
+
+    <rect x="68" y="210" width="316" height="12" rx="6" fill="#F2C3D5"/>
+    <rect x="68" y="210" width="221" height="12" rx="6" fill="url(#accent)">
+      <animate attributeName="width" values="204;221;204" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="68" y="232" width="104" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.88"/>
+    <text x="120" y="245" class="chip" text-anchor="middle" dominant-baseline="middle">docs live</text>
+    <rect x="182" y="232" width="122" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.8"/>
+    <text x="243" y="245" class="chip" text-anchor="middle" dominant-baseline="middle">core private</text>
+    <rect x="314" y="232" width="110" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.72"/>
+    <text x="369" y="245" class="chip" text-anchor="middle" dominant-baseline="middle">shipping</text>
+  </g>
+
+  <g transform="translate(496 54)">
+    <rect x="0" y="0" width="380" height="172" rx="24" fill="#8F5069"/>
+    <rect x="0.75" y="0.75" width="378.5" height="170.5" rx="23.25" stroke="#FFDCE8" stroke-opacity="0.42" stroke-width="1.5"/>
+
+    <text x="28" y="38" class="cardTitle">Platform shape</text>
+    <text x="28" y="62" class="cardBody">web / server / CLI</text>
+    <text x="28" y="82" class="cardBody">persistence / runtime</text>
+
+    <rect x="28" y="96" width="152" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.13"/>
+    <text x="104" y="111" class="cardBody" text-anchor="middle" dominant-baseline="middle">governance default</text>
+
+    <rect x="192" y="96" width="160" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.13"/>
+    <text x="272" y="111" class="cardBody" text-anchor="middle" dominant-baseline="middle">auditable chain</text>
+
+    <text x="28" y="148" class="cardTitle">Priorities now</text>
+    <circle cx="37" cy="165" r="5" fill="#FFEAF3">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="52" y="169" class="cardBody">controlled core</text>
+    <circle cx="195" cy="165" r="5" fill="#FFEAF3">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.45s" repeatCount="indefinite"/>
+    </circle>
+    <text x="210" y="169" class="cardBody">operator polish</text>
+  </g>
+</svg>

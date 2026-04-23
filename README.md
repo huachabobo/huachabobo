@@ -23,6 +23,7 @@
     <img src="https://img.shields.io/badge/Lecia%20AgentOS-Official%20Site-ca6c97?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Lecia AgentOS Official Site" />
   </a>
   <img src="https://img.shields.io/badge/Current%20Progress-70%25-704f63?style=for-the-badge" alt="Current Progress 70%" />
+  <img src="https://komarev.com/ghpvc/?username=huachabobo&label=PROFILE%20VIEWS&color=ca6c97&style=for-the-badge" alt="Profile views counter" />
 </p>
 
 <p>
@@ -47,6 +48,12 @@
 - 默认气质: `local-first` · `self-hosted` · `governable`
 - 默认要求: `safe` · `auditable` · `controllable`
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-dashboard.svg" alt="Lecia AgentOS mini dashboard" />
+
+</div>
+
 ### 已经进入真实形态的部分
 
 - 官网与文档中心已经上线，产品入口和叙事骨架是完整的。
@@ -63,6 +70,17 @@
 
 > `Lecia AgentOS` 核心仓库目前还在持续私有开发中，所以我把官网与文档中心作为当前最主要的对外入口。
 
+<details>
+<summary>Roadmap</summary>
+
+| Horizon | What I am pushing on |
+| --- | --- |
+| `Now` | Controlled core stability, provider runtime hardening, and operator-facing approval flow polish. |
+| `Next` | Stronger orchestration semantics, clearer execution evidence, and better recovery paths. |
+| `Later` | A fuller self-hosted AgentOS surface where runtime, governance, docs, and orchestration feel like one system. |
+
+</details>
+
 ## Selected Work
 
 | Project | Description |
@@ -74,6 +92,12 @@
 ## Focus
 
 `AgentOS` `LLM Runtime` `Self-hosted AI` `Governance` `Operator UX` `Automation` `Docs as Product` `TypeScript` `Python`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ts,py,nodejs,docker,githubactions,postgres,redis,linux,playwright,vite&theme=light&perline=10" alt="Skill icons" />
+
+</div>
 
 <details>
 <summary>How I think about systems</summary>
