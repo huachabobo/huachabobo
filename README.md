@@ -81,6 +81,16 @@
 
 </details>
 
+## Now Building
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-now-building.svg" alt="Now building terminal status bar" />
+
+<sub>Current focus, but rendered like a tiny control-plane terminal.</sub>
+
+</div>
+
 ## Selected Work
 
 | Project | Description |
