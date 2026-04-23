@@ -126,7 +126,7 @@ The public site gives the first mental model, while the docs expand the runtime,
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,py,nodejs,docker,githubactions,postgres,redis,linux,playwright,vite&theme=light&perline=10" alt="Skill icons" />
+<img src="https://skillicons.dev/icons?i=ts,py,nodejs,docker,githubactions,postgres,redis,linux,vite&theme=light&perline=9" alt="Skill icons" />
 
 </div>
 
@@ -155,7 +155,7 @@ These are the questions I keep asking:
 
 <img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-pacman.svg" alt="Pac-Man style Lecia AgentOS arcade component" />
 
-<sub>待办列表也值得一点街机能量。 / Even the backlog deserves a little arcade energy.</sub>
+<sub>待办列表也值得一点街机能量。<br />Even the backlog deserves a little arcade energy.</sub>
 
 </div>
 
