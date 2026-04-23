@@ -114,6 +114,16 @@
 
 </details>
 
+## Tiny Arcade
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-pacman.svg" alt="Pac-Man style Lecia AgentOS arcade component" />
+
+<sub>Even the backlog deserves a little arcade energy.</sub>
+
+</div>
+
 ## Contribution Flow
 
 <div align="center">
