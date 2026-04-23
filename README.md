@@ -1,5 +1,14 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ca6c97,100:f4b6c2&height=220&section=header&text=huachabobo&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Lecia%20AgentOS%20Builder&descAlignY=60" alt="huachabobo banner" />
+
+<br />
+<br />
+
+<a href="https://github.com/DenverCoder1/readme-typing-svg">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1400&color=CA6C97&center=true&vCenter=true&width=760&lines=Lecia+AgentOS+builder;self-hosted+AgentOS+control+plane;local-first+%C2%B7+self-hosted+%C2%B7+governable;%E4%B8%8E%E4%BD%A0%E5%B9%B6%E8%82%A9%E7%9A%84%E4%BB%A3%E7%A0%81%E6%98%9F%E5%85%89" alt="Typing SVG" />
+</a>
+
 # 花茶 · huachabobo
 
 <p>
@@ -80,3 +89,17 @@
 - 项目能不能被部署、维护、继续演化
 
 </details>
+
+## Contribution Flow
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/huachabobo/huachabobo/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/huachabobo/huachabobo/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/huachabobo/huachabobo/output/github-contribution-grid-snake.svg" />
+</picture>
+
+<sub>Serious systems can still be a little cute.</sub>
+
+</div>
