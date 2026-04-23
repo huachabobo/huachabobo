@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ca6c97,100:f4b6c2&height=220&section=header&text=huachabobo&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Lecia%20AgentOS%20Builder&descAlignY=60" alt="huachabobo banner" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-banner.svg" alt="huachabobo custom banner" />
 
 <br />
 <br />

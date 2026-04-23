@@ -1,0 +1,171 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">huachabobo profile banner</title>
+  <desc id="desc">A cute and professional banner for huachabobo featuring Lecia AgentOS, a 70 percent progress badge, and a soft pink control-plane themed layout.</desc>
+  <defs>
+    <linearGradient id="bg" x1="76" y1="52" x2="1214" y2="326" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF5FA"/>
+      <stop offset="0.52" stop-color="#FCE3EC"/>
+      <stop offset="1" stop-color="#F4C7D8"/>
+    </linearGradient>
+    <linearGradient id="card" x1="768" y1="78" x2="1136" y2="278" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8F4F68"/>
+      <stop offset="1" stop-color="#C86B92"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="234" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFDDE9"/>
+      <stop offset="1" stop-color="#FFF5FA"/>
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(188 82) rotate(22.4) scale(284 208)">
+      <stop stop-color="#FFE9F2"/>
+      <stop offset="1" stop-color="#FFE9F2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1084 278) rotate(180) scale(308 230)">
+      <stop stop-color="#F7B8D0"/>
+      <stop offset="1" stop-color="#F7B8D0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="0" y="0" width="1280" height="360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#BA6F8F" flood-opacity="0.18"/>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <style>
+      .title {
+        font: 700 46px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #6E3750;
+      }
+      .subtitle {
+        font: 600 20px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #8D5670;
+      }
+      .body {
+        font: 500 19px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #815066;
+      }
+      .chip {
+        font: 700 16px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #A14D73;
+      }
+      .cardTitle {
+        font: 700 28px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #FFF7FB;
+      }
+      .cardBody {
+        font: 600 14px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #FFEAF4;
+      }
+      .tiny {
+        font: 700 12px "Trebuchet MS", "Segoe UI", sans-serif;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        fill: #FFEAF4;
+      }
+    </style>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="28" y="24" width="1224" height="312" rx="30" fill="url(#bg)"/>
+  </g>
+
+  <rect x="28" y="24" width="1224" height="312" rx="30" stroke="#FFFFFF" stroke-opacity="0.55"/>
+  <path d="M76 112C190 62 314 38 458 48C602 58 700 106 832 118C964 130 1086 98 1176 58V336H76V112Z" fill="url(#glowLeft)"/>
+  <path d="M1104 42C1044 84 960 130 852 142C744 154 664 140 554 158C444 176 344 224 274 336H1252V42H1104Z" fill="url(#glowRight)"/>
+
+  <g opacity="0.18">
+    <circle cx="116" cy="92" r="3" fill="#C86B92"/>
+    <circle cx="164" cy="92" r="3" fill="#C86B92"/>
+    <circle cx="212" cy="92" r="3" fill="#C86B92"/>
+    <circle cx="116" cy="140" r="3" fill="#C86B92"/>
+    <circle cx="164" cy="140" r="3" fill="#C86B92"/>
+    <circle cx="212" cy="140" r="3" fill="#C86B92"/>
+    <circle cx="116" cy="188" r="3" fill="#C86B92"/>
+    <circle cx="164" cy="188" r="3" fill="#C86B92"/>
+    <circle cx="212" cy="188" r="3" fill="#C86B92"/>
+    <circle cx="1042" cy="238" r="3" fill="#FFF7FB"/>
+    <circle cx="1090" cy="238" r="3" fill="#FFF7FB"/>
+    <circle cx="1138" cy="238" r="3" fill="#FFF7FB"/>
+    <circle cx="1042" cy="286" r="3" fill="#FFF7FB"/>
+    <circle cx="1090" cy="286" r="3" fill="#FFF7FB"/>
+    <circle cx="1138" cy="286" r="3" fill="#FFF7FB"/>
+  </g>
+
+  <g>
+    <rect x="86" y="74" width="170" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.82"/>
+    <circle cx="116" cy="93" r="8" fill="#FFB4CF"/>
+    <circle cx="138" cy="93" r="8" fill="#F6D7E6"/>
+    <circle cx="160" cy="93" r="8" fill="#FFCFE0"/>
+    <text x="182" y="99" class="chip">agent builder</text>
+  </g>
+
+  <g>
+    <text x="86" y="164" class="title">花茶 · huachabobo</text>
+    <text x="86" y="197" class="subtitle">cute, serious, and governable AI systems</text>
+    <text x="86" y="236" class="body">Lecia AgentOS builder for self-hosted teams,</text>
+    <text x="86" y="264" class="body">turning docs, runtime, and governance into one control plane.</text>
+  </g>
+
+  <g>
+    <rect x="86" y="286" width="162" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.88"/>
+    <text x="111" y="308" class="chip">Lecia AgentOS</text>
+
+    <rect x="264" y="286" width="144" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.78"/>
+    <text x="290" y="308" class="chip">self-hosted</text>
+
+    <rect x="424" y="286" width="150" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.72"/>
+    <text x="452" y="308" class="chip">control plane</text>
+  </g>
+
+  <g transform="translate(746 72)">
+    <animateTransform attributeName="transform" type="translate" values="746 72;746 66;746 72" dur="5.5s" repeatCount="indefinite"/>
+    <rect x="0" y="0" width="428" height="216" rx="28" fill="url(#card)"/>
+    <rect x="0.75" y="0.75" width="426.5" height="214.5" rx="27.25" stroke="#FFDCE8" stroke-opacity="0.4" stroke-width="1.5"/>
+
+    <rect x="24" y="24" width="100" height="30" rx="15" fill="#FFD5E6" fill-opacity="0.18"/>
+    <text x="43" y="44" class="tiny">live profile</text>
+
+    <circle cx="365" cy="38" r="6" fill="#FFD9E7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="387" cy="38" r="6" fill="#FFEFF6" fill-opacity="0.95"/>
+    <circle cx="409" cy="38" r="6" fill="#FFD0E2" fill-opacity="0.8"/>
+
+    <text x="24" y="96" class="cardTitle">Lecia AgentOS</text>
+    <text x="24" y="126" class="cardBody">Self-hosted agent operating system with</text>
+    <text x="24" y="148" class="cardBody">runtime, governance, docs, and operator trust.</text>
+
+    <rect x="24" y="172" width="380" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.18"/>
+    <rect x="24" y="172" width="266" height="12" rx="6" fill="url(#bar)">
+      <animate attributeName="width" values="238;266;238" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="24" y="204" class="tiny">current progress</text>
+    <text x="332" y="204" class="cardBody" text-anchor="end">70%</text>
+    <text x="24" y="228" class="cardBody">local-first</text>
+    <text x="132" y="228" class="cardBody">self-hosted</text>
+    <text x="270" y="228" class="cardBody">governable</text>
+
+    <g>
+      <circle cx="100" cy="219" r="4" fill="#FFEAF4">
+        <animate attributeName="r" values="4;5.5;4" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="212" cy="219" r="4" fill="#FFEAF4">
+        <animate attributeName="r" values="4;5.5;4" dur="2.4s" begin="0.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="346" cy="219" r="4" fill="#FFEAF4">
+        <animate attributeName="r" values="4;5.5;4" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <g>
+    <path d="M1152 98L1157.39 109.61L1169 115L1157.39 120.39L1152 132L1146.61 120.39L1135 115L1146.61 109.61L1152 98Z" fill="#FFFFFF" fill-opacity="0.84">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1108 64L1111.86 72.14L1120 76L1111.86 79.86L1108 88L1104.14 79.86L1096 76L1104.14 72.14L1108 64Z" fill="#FFECF4" fill-opacity="0.78">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.1s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="706" cy="82" r="20" fill="#FFFFFF" fill-opacity="0.44" filter="url(#soft)"/>
+    <circle cx="732" cy="104" r="12" fill="#FFE9F2" fill-opacity="0.78"/>
+    <circle cx="688" cy="108" r="10" fill="#FFD9E7" fill-opacity="0.68"/>
+  </g>
+</svg>
