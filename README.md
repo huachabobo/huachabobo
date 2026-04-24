@@ -5,7 +5,7 @@
 <br />
 <br />
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-typing.svg?v=20260424-typewriter" alt="Lecia AgentOS animated typing line" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-typing.svg?v=20260424-step-typewriter" alt="Lecia AgentOS animated typing line" />
 
 # 花茶 / huachabobo
 
