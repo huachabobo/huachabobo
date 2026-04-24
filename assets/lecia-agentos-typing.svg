@@ -1,0 +1,40 @@
+<svg width="760" height="44" viewBox="0 0 760 44" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lecia AgentOS typing line</title>
+  <desc id="desc">A local animated typing-style line for the huachabobo GitHub profile.</desc>
+  <defs>
+    <style>
+      .line {
+        font: 700 22px "SFMono-Regular", "Consolas", "Menlo", monospace;
+        fill: #CA6C97;
+      }
+      .cursor {
+        fill: #CA6C97;
+      }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="44" rx="22" fill="transparent"/>
+
+  <g text-anchor="middle">
+    <text x="380" y="28" class="line" opacity="1">
+      Lecia AgentOS builder
+      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.2;0.25;0.45;0.5;0.7;0.75;0.95;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="380" y="28" class="line" opacity="0">
+      做可爱、认真、可治理的 AI 系统
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.2;0.25;0.45;0.5;0.7;0.75;0.95;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="380" y="28" class="line" opacity="0">
+      self-hosted agent systems, operator-first
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" keyTimes="0;0.2;0.25;0.45;0.5;0.7;0.75;0.95;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="380" y="28" class="line" opacity="0">
+      soft edges · serious systems
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.2;0.25;0.45;0.5;0.7;0.75;0.95;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <rect x="618" y="10" width="10" height="26" rx="2" class="cursor">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

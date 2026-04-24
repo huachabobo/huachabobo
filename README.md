@@ -5,9 +5,7 @@
 <br />
 <br />
 
-<a href="https://github.com/DenverCoder1/readme-typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1400&color=CA6C97&center=true&vCenter=true&width=760&lines=Lecia+AgentOS+builder;做可爱、认真、可治理的+AI+系统;self-hosted+agent+systems%2C+operator-first;soft+edges+%C2%B7+serious+systems" alt="Typing SVG" />
-</a>
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-typing.svg" alt="Lecia AgentOS animated typing line" />
 
 # 花茶 / huachabobo
 
