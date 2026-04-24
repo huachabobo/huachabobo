@@ -3,12 +3,12 @@
   <desc id="desc">A terminal-style status bar showing the current Lecia AgentOS work items: controlled core stability, provider runtime hardening, and operator approval polish.</desc>
   <defs>
     <linearGradient id="shell" x1="38" y1="24" x2="922" y2="134" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFF6FB"/>
-      <stop offset="1" stop-color="#F8D9E7"/>
+      <stop offset="0" stop-color="#462733"/>
+      <stop offset="1" stop-color="#714154"/>
     </linearGradient>
     <linearGradient id="header" x1="38" y1="24" x2="922" y2="60" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#FFEAF4"/>
+      <stop offset="0" stop-color="#FCE7F0"/>
+      <stop offset="1" stop-color="#F7D7E4"/>
     </linearGradient>
     <filter id="shadow" x="0" y="0" width="960" height="158" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#9B5B74" flood-opacity="0.18"/>
@@ -26,19 +26,19 @@
       }
       .line {
         font: 600 16px "SFMono-Regular", "Consolas", "Menlo", monospace;
-        fill: #71394F;
+        fill: #FFF5FA;
       }
       .muted {
         font: 600 15px "SFMono-Regular", "Consolas", "Menlo", monospace;
-        fill: #9A5D76;
+        fill: #F2CAD8;
       }
       .accent {
         font: 700 15px "SFMono-Regular", "Consolas", "Menlo", monospace;
-        fill: #C96B93;
+        fill: #FFD86E;
       }
       .ok {
         font: 700 15px "SFMono-Regular", "Consolas", "Menlo", monospace;
-        fill: #6A9275;
+        fill: #BFF1CC;
       }
     </style>
   </defs>
@@ -48,7 +48,7 @@
   </g>
   <rect x="28" y="22" width="904" height="36" rx="22" fill="url(#header)"/>
   <path d="M28 58H932V114C932 126.15 922.15 136 910 136H50C37.8497 136 28 126.15 28 114V58Z" fill="url(#shell)"/>
-  <rect x="28.75" y="22.75" width="902.5" height="112.5" rx="21.25" stroke="#FFFFFF" stroke-opacity="0.74" stroke-width="1.5"/>
+  <rect x="28.75" y="22.75" width="902.5" height="112.5" rx="21.25" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1.5"/>
 
   <circle cx="56" cy="40" r="6.5" fill="#F39AB9"/>
   <circle cx="78" cy="40" r="6.5" fill="#F6C6D8"/>
@@ -62,7 +62,7 @@
   <text x="56" y="108" class="ok">&gt;</text>
   <text x="76" y="108" class="muted">controlled-core · runtime hardening · approval polish</text>
 
-  <rect x="584" y="95" width="9" height="18" rx="2" fill="#C96B93">
+  <rect x="584" y="95" width="9" height="18" rx="2" fill="#FFD86E">
     <animate attributeName="opacity" values="1;0.2;1" dur="1.1s" repeatCount="indefinite"/>
   </rect>
 </svg>

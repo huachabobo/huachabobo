@@ -5,7 +5,7 @@
 <br />
 <br />
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-typing.svg?v=20260424-soft-pink" alt="Lecia AgentOS animated typing line" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-typing.svg?v=20260424-type-backspace" alt="Lecia AgentOS animated typing line" />
 
 # 花茶 / huachabobo
 
@@ -94,7 +94,7 @@ The public site gives the first mental model, while the docs expand the runtime,
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-now-building.svg?v=20260424-soft-pink" alt="Now building terminal status bar" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-now-building.svg" alt="Now building terminal status bar" />
 
 <sub>当前焦点，但用一条微型 control-plane terminal 来表达。 / Current focus, rendered like a tiny control-plane terminal.</sub>
 

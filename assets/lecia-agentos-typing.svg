@@ -33,8 +33,7 @@
     </clipPath>
   </defs>
 
-  <rect x="4" y="2" width="752" height="40" rx="20" fill="#FFF1F7"/>
-  <rect x="4.5" y="2.5" width="751" height="39" rx="19.5" stroke="#FFD7E7" stroke-opacity="0.82"/>
+  <rect x="0" y="0" width="760" height="44" rx="22" fill="transparent"/>
 
   <g opacity="1">
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.248;0.25;1" dur="16s" repeatCount="indefinite"/>
