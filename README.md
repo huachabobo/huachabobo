@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-banner.svg" alt="huachabobo custom banner" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-banner.svg?v=20260517-p1-recover" alt="huachabobo custom banner" />
 
 <br />
 <br />
@@ -20,7 +20,7 @@
   <a href="https://leciabot-site.huach.top/">
     <img src="https://img.shields.io/badge/Lecia%20AgentOS-Official%20Site-ca6c97?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Lecia AgentOS Official Site" />
   </a>
-  <img src="https://img.shields.io/badge/Current%20Progress-70%25-704f63?style=for-the-badge" alt="Current Progress 70%" />
+  <img src="https://img.shields.io/badge/Current%20Progress-76%25-704f63?style=for-the-badge" alt="Current Progress 76%" />
   <img src="https://komarev.com/ghpvc/?username=huachabobo&label=PROFILE%20VIEWS&color=ca6c97&style=for-the-badge" alt="Profile views counter" />
 </p>
 
@@ -51,29 +51,37 @@ I want product entrypoints, runtime, governance, docs, operator workflows, and o
 The public site gives the first mental model, while the docs expand the runtime, governance, and control-plane details.
 
 - 官网与文档中心：[leciabot-site.huach.top](https://leciabot-site.huach.top/)<br />Public site and docs: [leciabot-site.huach.top](https://leciabot-site.huach.top/)
-- 当前进度：`70%`<br />Current progress: `70%`
-- 当前形态：`self-hosted AgentOS control plane`<br />Current shape: `self-hosted AgentOS control plane`
+- 当前进度：`76%`，controlled-core V1 正在进入 P1 deploy / recover reality 阶段。<br />Current progress: `76%`, with controlled-core V1 moving through the P1 deploy / recover reality tranche.
+- 当前形态：`self-hosted AgentOS control plane` · `operator recovery loop`<br />Current shape: `self-hosted AgentOS control plane` · `operator recovery loop`
 - 默认气质：`local-first` · `self-hosted` · `governable`<br />Default posture: `local-first` · `self-hosted` · `governable`
 - 默认要求：`safe` · `auditable` · `controllable`<br />Default expectations: `safe` · `auditable` · `controllable`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-dashboard.svg" alt="Lecia AgentOS mini dashboard" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-dashboard.svg?v=20260517-p1-recover" alt="Lecia AgentOS mini dashboard" />
 
 </div>
+
+### 最新进度 / Latest Progress
+
+- `P0 readiness / runtime hotspot` 已经完成，项目重心从“运行时名词是否存在”转向“真实部署与恢复是否可靠”。<br />`P0 readiness / runtime hotspot` is complete, and the focus has moved from proving runtime nouns exist to proving deploy and recovery are reliable.
+- 当前主线是 `P1 Deploy & Recover Reality`：clean startup、first useful run、snapshot restore、update verification 与 operator recovery 被收进同一条可复盘的闭环。<br />The active track is `P1 Deploy & Recover Reality`: clean startup, first useful run, snapshot restore, update verification, and operator recovery now form one reviewable loop.
+- `compose-up smoke` 已经能产出 first-useful-run、restore、update-apply 的结构化证据与 operator report。<br />`compose-up smoke` now produces structured first-useful-run, restore, update-apply evidence and an operator report.
+- `Operations recovery center` 正在把 Compose / Postgres / local artifact reader 的失败证据、恢复建议与 WebUI 深链连接起来。<br />The `Operations recovery center` is connecting Compose / Postgres / local artifact reader evidence, recovery guidance, and WebUI deep links.
+- 最近一轮实现继续打磨 `dev:first-useful-run`、`dev:recovery-drill`、sidecar mirror 姿态与 Reply Lane 深链稳定性。<br />The latest implementation pass is polishing `dev:first-useful-run`, `dev:recovery-drill`, sidecar mirror posture, and Reply Lane deep-link stability.
 
 ### 已经进入真实形态 / Already Real
 
 - 官网与文档中心已经上线，产品入口和叙事骨架是完整的。<br />The public site and docs are live, and the product narrative now has a real entrypoint.
 - 核心仓库已经具备真实的 `web` / `server` / `CLI` / `persistence` / `runtime` 切片。<br />The core repo already has real `web` / `server` / `CLI` / `persistence` / `runtime` slices.
 - `approval`、`trust`、`snapshot`、`restore`、`observability` 这些治理能力已经不是概念，而是工程中的默认能力。<br />`approval`, `trust`, `snapshot`, `restore`, and `observability` are no longer ideas on paper, but default engineering capabilities.
-- 前台对话、后台任务、provider 路由与执行证据，正在被收进同一条可追踪的运行时链路。<br />Foreground chat, background jobs, provider routing, and execution evidence are being pulled into one traceable runtime chain.
+- 前台对话、后台任务、provider 路由、isolated execution 与恢复证据，正在被收进同一条可追踪的运行时链路。<br />Foreground chat, background jobs, provider routing, isolated execution, and recovery evidence are being pulled into one traceable runtime chain.
 
 ### 持续打磨中 / Still Being Polished
 
-- 把 controlled core 做得更稳，让它更适合真实部署，而不只是漂亮 demo。<br />Make the controlled core steadier and more deployment-ready, not just demo-friendly.
-- 继续打磨 provider / adapter runtime，让它能长期运行，而不是短期可演示。<br />Keep hardening the provider / adapter runtime so it can run for the long term, not just for short demos.
-- 强化 operator 视角下的 approval、auditability 与 recovery 体验。<br />Strengthen approval, auditability, and recovery from the operator point of view.
+- 把 P1 deploy / recover 路径做稳，让 clean first useful run、restore、update 与 recovery drill 都能被复盘。<br />Harden the P1 deploy / recover path so clean first useful run, restore, update, and recovery drills are reviewable.
+- 继续打磨 provider / adapter runtime 与 sidecar 姿态，让它能长期运行，而不是短期可演示。<br />Keep hardening provider / adapter runtime and sidecar posture so it can run for the long term, not just for short demos.
+- 强化 operator 视角下的 approval、auditability、artifact handoff 与 recovery deep links。<br />Strengthen approval, auditability, artifact handoff, and recovery deep links from the operator point of view.
 - 把 orchestration layer 继续做实，避免产品退化成单纯的 reply shell。<br />Keep building out orchestration so the product does not collapse into a reply shell.
 
 > `Lecia AgentOS` 核心仓库目前还在持续私有开发中，所以我把官网与文档中心作为当前最主要的对外入口。  
@@ -84,8 +92,8 @@ The public site gives the first mental model, while the docs expand the runtime,
 
 | Horizon | 中文 | English |
 | --- | --- | --- |
-| `Now` | 把 controlled core 做稳，把 provider runtime 做硬，把 operator-facing approval flow 做顺。 | Make the controlled core steadier, harden provider runtime, and smooth out the operator-facing approval flow. |
-| `Next` | 把 orchestration 语义做得更强，把执行证据做得更清楚，把恢复路径做得更可靠。 | Strengthen orchestration semantics, clarify execution evidence, and improve recovery paths. |
+| `Now` | 把 P1 deploy / recover reality 做稳：启动、首跑、恢复、更新、证据与操作员指引闭环。 | Stabilize P1 deploy / recover reality: startup, first run, restore, update, evidence, and operator guidance. |
+| `Next` | 把 orchestration 语义做得更强，把执行证据做得更清楚，把恢复路径和 deep links 做得更可靠。 | Strengthen orchestration semantics, clarify execution evidence, and make recovery paths and deep links more reliable. |
 | `Later` | 让 runtime、governance、docs 与 orchestration 在同一套 self-hosted AgentOS 体验里自然闭环。 | Make runtime, governance, docs, and orchestration feel like one closed-loop self-hosted AgentOS experience. |
 
 </details>
@@ -94,7 +102,7 @@ The public site gives the first mental model, while the docs expand the runtime,
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-now-building.svg" alt="Now building terminal status bar" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-now-building.svg?v=20260517-p1-recover" alt="Now building terminal status bar" />
 
 <sub>当前焦点，但用一条微型 control-plane terminal 来表达。 / Current focus, rendered like a tiny control-plane terminal.</sub>
 

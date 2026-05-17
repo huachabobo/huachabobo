@@ -1,6 +1,6 @@
 <svg width="960" height="158" viewBox="0 0 960 158" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Now building terminal bar</title>
-  <desc id="desc">A terminal-style status bar showing the current Lecia AgentOS work items: controlled core stability, provider runtime hardening, and operator approval polish.</desc>
+  <desc id="desc">A terminal-style status bar showing the current Lecia AgentOS P1 work items: deploy and recover reality, first useful run, and recovery evidence.</desc>
   <defs>
     <linearGradient id="shell" x1="38" y1="24" x2="922" y2="134" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#462733"/>
@@ -57,10 +57,10 @@
   <text x="892" y="44" class="title" text-anchor="end">live status</text>
 
   <text x="56" y="82" class="accent">$</text>
-  <text x="76" y="82" class="line">now-building Lecia-AgentOS</text>
+  <text x="76" y="82" class="line">now-building Lecia-AgentOS P1</text>
 
   <text x="56" y="108" class="ok">&gt;</text>
-  <text x="76" y="108" class="muted">controlled-core · runtime hardening · approval polish</text>
+  <text x="76" y="108" class="muted">deploy/recover · first-run drill · recovery evidence</text>
 
   <rect x="584" y="95" width="9" height="18" rx="2" fill="#FFD86E">
     <animate attributeName="opacity" values="1;0.2;1" dur="1.1s" repeatCount="indefinite"/>
