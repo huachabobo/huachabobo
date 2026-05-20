@@ -68,7 +68,7 @@ The public site gives the first mental model, while the docs expand the runtime,
 - `compose-up smoke` 已经把 first-useful-run、restore、update-apply、secret-leak proof 与 runtime shutdown audit 收进结构化结果。<br />`compose-up smoke` now captures first-useful-run, restore, update-apply, secret-leak proof, and runtime shutdown audit in structured results.
 - Provider / adapter 真实路径继续变硬：OpenAI-compatible dialect 证据、Postgres first-wave phase status、OneBot/SnowLuma 预检与授权 QQ/NapCat Provider reply 都进入证据链。<br />Provider / adapter reality is getting stronger: OpenAI-compatible dialect evidence, Postgres first-wave phase status, OneBot/SnowLuma preflight, and authorized QQ/NapCat Provider reply are now part of the evidence chain.
 - 运维侧新增 runtime shutdown reason、server close audit、auto-ports、local-admin takeover password-file 与 artifact locator 收口。<br />Operations now include runtime shutdown reasons, server close audit, auto-ports, local-admin takeover password-file support, and tighter artifact locator handoff.
-- 当前剩余 follow-up 很明确：current data-dir local-admin security live check，以及 recorded-SHA deferred CI 跟进。<br />The remaining follow-ups are explicit: current data-dir local-admin security live check and recorded-SHA deferred CI follow-up.
+- 当前剩余 follow-up 很明确：current data-dir local-admin security live check、recorded-SHA deferred CI 跟进，以及 current dirty-batch closeout。<br />The remaining follow-ups are explicit: current data-dir local-admin security live check, recorded-SHA deferred CI follow-up, and current dirty-batch closeout.
 
 ### 已经进入真实形态 / Already Real
 
@@ -92,7 +92,7 @@ The public site gives the first mental model, while the docs expand the runtime,
 
 | Horizon | 中文 | English |
 | --- | --- | --- |
-| `Now` | 完成 P1 evidence-ready 后的 freeze audit：证据、关闭审计、外部 CI 跟进与本地安全检查收口。 | Finish the post evidence-ready P1 freeze audit: evidence, shutdown audit, external CI follow-up, and local security checks. |
+| `Now` | 完成 P1 evidence-ready 后的 freeze audit：证据、关闭审计、本地 dirty-batch closeout、外部 CI 跟进与本地安全检查收口。 | Finish the post evidence-ready P1 freeze audit: evidence, shutdown audit, local dirty-batch closeout, external CI follow-up, and local security checks. |
 | `Next` | 进入 P2.1 contract freeze：把已使用的 routes、artifacts、handoff payloads 与 Provider/adapter 证据固化为共享契约。 | Move into P2.1 contract freeze: stabilize routes, artifacts, handoff payloads, and Provider/adapter evidence into shared contracts. |
 | `Later` | 让 runtime、governance、docs 与 orchestration 在同一套 self-hosted AgentOS 体验里自然闭环。 | Make runtime, governance, docs, and orchestration feel like one closed-loop self-hosted AgentOS experience. |
 
