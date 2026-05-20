@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-banner.svg?v=20260517-p1-recover" alt="huachabobo custom banner" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-banner.svg?v=20260521-p1-audit" alt="huachabobo custom banner" />
 
 <br />
 <br />
@@ -20,7 +20,7 @@
   <a href="https://leciabot-site.huach.top/">
     <img src="https://img.shields.io/badge/Lecia%20AgentOS-Official%20Site-ca6c97?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Lecia AgentOS Official Site" />
   </a>
-  <img src="https://img.shields.io/badge/Current%20Progress-76%25-704f63?style=for-the-badge" alt="Current Progress 76%" />
+  <img src="https://img.shields.io/badge/Current%20Progress-84%25-704f63?style=for-the-badge" alt="Current Progress 84%" />
   <img src="https://komarev.com/ghpvc/?username=huachabobo&label=PROFILE%20VIEWS&color=ca6c97&style=for-the-badge" alt="Profile views counter" />
 </p>
 
@@ -51,37 +51,37 @@ I want product entrypoints, runtime, governance, docs, operator workflows, and o
 The public site gives the first mental model, while the docs expand the runtime, governance, and control-plane details.
 
 - 官网与文档中心：[leciabot-site.huach.top](https://leciabot-site.huach.top/)<br />Public site and docs: [leciabot-site.huach.top](https://leciabot-site.huach.top/)
-- 当前进度：`76%`，controlled-core V1 正在进入 P1 deploy / recover reality 阶段。<br />Current progress: `76%`, with controlled-core V1 moving through the P1 deploy / recover reality tranche.
-- 当前形态：`self-hosted AgentOS control plane` · `operator recovery loop`<br />Current shape: `self-hosted AgentOS control plane` · `operator recovery loop`
+- 当前进度：`84%`，controlled-core V1 已进入 P1 evidence-ready / freeze audit 阶段。<br />Current progress: `84%`, with controlled-core V1 now in the P1 evidence-ready / freeze audit stage.
+- 当前形态：`self-hosted AgentOS control plane` · `operator recovery loop` · `P1 audit-ready`<br />Current shape: `self-hosted AgentOS control plane` · `operator recovery loop` · `P1 audit-ready`
 - 默认气质：`local-first` · `self-hosted` · `governable`<br />Default posture: `local-first` · `self-hosted` · `governable`
 - 默认要求：`safe` · `auditable` · `controllable`<br />Default expectations: `safe` · `auditable` · `controllable`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-dashboard.svg?v=20260517-p1-recover" alt="Lecia AgentOS mini dashboard" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-dashboard.svg?v=20260521-p1-audit" alt="Lecia AgentOS mini dashboard" />
 
 </div>
 
 ### 最新进度 / Latest Progress
 
-- `P0 readiness / runtime hotspot` 已经完成，项目重心从“运行时名词是否存在”转向“真实部署与恢复是否可靠”。<br />`P0 readiness / runtime hotspot` is complete, and the focus has moved from proving runtime nouns exist to proving deploy and recovery are reliable.
-- 当前主线是 `P1 Deploy & Recover Reality`：clean startup、first useful run、snapshot restore、update verification 与 operator recovery 被收进同一条可复盘的闭环。<br />The active track is `P1 Deploy & Recover Reality`: clean startup, first useful run, snapshot restore, update verification, and operator recovery now form one reviewable loop.
-- `compose-up smoke` 已经能产出 first-useful-run、restore、update-apply 的结构化证据与 operator report。<br />`compose-up smoke` now produces structured first-useful-run, restore, update-apply evidence and an operator report.
-- `Operations recovery center` 正在把 Compose / Postgres / local artifact reader 的失败证据、恢复建议与 WebUI 深链连接起来。<br />The `Operations recovery center` is connecting Compose / Postgres / local artifact reader evidence, recovery guidance, and WebUI deep links.
-- 最近一轮实现继续打磨 `dev:first-useful-run`、`dev:recovery-drill`、sidecar mirror 姿态与 Reply Lane 深链稳定性。<br />The latest implementation pass is polishing `dev:first-useful-run`, `dev:recovery-drill`, sidecar mirror posture, and Reply Lane deep-link stability.
+- P1 completion audit 的 required evidence 已经 `4/4` 通过：Provider bootstrap、clean first useful run、restore/update recovery drill、Compose deploy/recover smoke 都有可复盘产物。<br />The P1 completion audit now has `4/4` required evidence passing: Provider bootstrap, clean first useful run, restore/update recovery drill, and Compose deploy/recover smoke all have reviewable artifacts.
+- `compose-up smoke` 已经把 first-useful-run、restore、update-apply、secret-leak proof 与 runtime shutdown audit 收进结构化结果。<br />`compose-up smoke` now captures first-useful-run, restore, update-apply, secret-leak proof, and runtime shutdown audit in structured results.
+- Provider / adapter 真实路径继续变硬：OpenAI-compatible dialect 证据、Postgres first-wave phase status、OneBot/SnowLuma 预检与授权 QQ/NapCat Provider reply 都进入证据链。<br />Provider / adapter reality is getting stronger: OpenAI-compatible dialect evidence, Postgres first-wave phase status, OneBot/SnowLuma preflight, and authorized QQ/NapCat Provider reply are now part of the evidence chain.
+- 运维侧新增 runtime shutdown reason、server close audit、auto-ports、local-admin takeover password-file 与 artifact locator 收口。<br />Operations now include runtime shutdown reasons, server close audit, auto-ports, local-admin takeover password-file support, and tighter artifact locator handoff.
+- 当前剩余 follow-up 很明确：current data-dir local-admin security live check，以及 recorded-SHA deferred CI 跟进。<br />The remaining follow-ups are explicit: current data-dir local-admin security live check and recorded-SHA deferred CI follow-up.
 
 ### 已经进入真实形态 / Already Real
 
 - 官网与文档中心已经上线，产品入口和叙事骨架是完整的。<br />The public site and docs are live, and the product narrative now has a real entrypoint.
 - 核心仓库已经具备真实的 `web` / `server` / `CLI` / `persistence` / `runtime` 切片。<br />The core repo already has real `web` / `server` / `CLI` / `persistence` / `runtime` slices.
 - `approval`、`trust`、`snapshot`、`restore`、`observability` 这些治理能力已经不是概念，而是工程中的默认能力。<br />`approval`, `trust`, `snapshot`, `restore`, and `observability` are no longer ideas on paper, but default engineering capabilities.
-- 前台对话、后台任务、provider 路由、isolated execution 与恢复证据，正在被收进同一条可追踪的运行时链路。<br />Foreground chat, background jobs, provider routing, isolated execution, and recovery evidence are being pulled into one traceable runtime chain.
+- 前台对话、后台任务、provider 路由、isolated execution、NapCat/OneBot 回执与恢复证据，正在被收进同一条可追踪的运行时链路。<br />Foreground chat, background jobs, provider routing, isolated execution, NapCat/OneBot receipts, and recovery evidence are being pulled into one traceable runtime chain.
 
 ### 持续打磨中 / Still Being Polished
 
-- 把 P1 deploy / recover 路径做稳，让 clean first useful run、restore、update 与 recovery drill 都能被复盘。<br />Harden the P1 deploy / recover path so clean first useful run, restore, update, and recovery drills are reviewable.
-- 继续打磨 provider / adapter runtime 与 sidecar 姿态，让它能长期运行，而不是短期可演示。<br />Keep hardening provider / adapter runtime and sidecar posture so it can run for the long term, not just for short demos.
-- 强化 operator 视角下的 approval、auditability、artifact handoff 与 recovery deep links。<br />Strengthen approval, auditability, artifact handoff, and recovery deep links from the operator point of view.
+- 做 P1 freeze audit 前的最后收口：确认 current data-dir security、recorded-SHA deferred CI 与外部阻塞都被显式记录。<br />Close the last pre-freeze audit loop: make current data-dir security, recorded-SHA deferred CI, and external blockers explicit.
+- 继续把 Provider / adapter runtime、Postgres first-wave 与 NapCat/QQ 证明做成可复盘证据，而不是口头“能跑”。<br />Keep turning Provider / adapter runtime, Postgres first-wave, and NapCat/QQ proof into reviewable evidence instead of informal “it works” claims.
+- 强化 operator 视角下的 approval、auditability、artifact handoff、shutdown audit 与 recovery deep links。<br />Strengthen approval, auditability, artifact handoff, shutdown audit, and recovery deep links from the operator point of view.
 - 把 orchestration layer 继续做实，避免产品退化成单纯的 reply shell。<br />Keep building out orchestration so the product does not collapse into a reply shell.
 
 > `Lecia AgentOS` 核心仓库目前还在持续私有开发中，所以我把官网与文档中心作为当前最主要的对外入口。  
@@ -92,8 +92,8 @@ The public site gives the first mental model, while the docs expand the runtime,
 
 | Horizon | 中文 | English |
 | --- | --- | --- |
-| `Now` | 把 P1 deploy / recover reality 做稳：启动、首跑、恢复、更新、证据与操作员指引闭环。 | Stabilize P1 deploy / recover reality: startup, first run, restore, update, evidence, and operator guidance. |
-| `Next` | 把 orchestration 语义做得更强，把执行证据做得更清楚，把恢复路径和 deep links 做得更可靠。 | Strengthen orchestration semantics, clarify execution evidence, and make recovery paths and deep links more reliable. |
+| `Now` | 完成 P1 evidence-ready 后的 freeze audit：证据、关闭审计、外部 CI 跟进与本地安全检查收口。 | Finish the post evidence-ready P1 freeze audit: evidence, shutdown audit, external CI follow-up, and local security checks. |
+| `Next` | 进入 P2.1 contract freeze：把已使用的 routes、artifacts、handoff payloads 与 Provider/adapter 证据固化为共享契约。 | Move into P2.1 contract freeze: stabilize routes, artifacts, handoff payloads, and Provider/adapter evidence into shared contracts. |
 | `Later` | 让 runtime、governance、docs 与 orchestration 在同一套 self-hosted AgentOS 体验里自然闭环。 | Make runtime, governance, docs, and orchestration feel like one closed-loop self-hosted AgentOS experience. |
 
 </details>
@@ -102,7 +102,7 @@ The public site gives the first mental model, while the docs expand the runtime,
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-now-building.svg?v=20260517-p1-recover" alt="Now building terminal status bar" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-now-building.svg?v=20260521-p1-audit" alt="Now building terminal status bar" />
 
 <sub>当前焦点，但用一条微型 control-plane terminal 来表达。 / Current focus, rendered like a tiny control-plane terminal.</sub>
 
