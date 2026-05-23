@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-banner.svg?v=20260521-p1-audit" alt="huachabobo custom banner" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-banner.svg?v=20260523-p2-5-beta" alt="huachabobo custom banner" />
 
 <br />
 <br />
@@ -20,7 +20,7 @@
   <a href="https://leciabot-site.huach.top/">
     <img src="https://img.shields.io/badge/Lecia%20AgentOS-Official%20Site-ca6c97?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Lecia AgentOS Official Site" />
   </a>
-  <img src="https://img.shields.io/badge/Current%20Progress-84%25-704f63?style=for-the-badge" alt="Current Progress 84%" />
+  <img src="https://img.shields.io/badge/Current%20Progress-89%25-704f63?style=for-the-badge" alt="Current Progress 89%" />
   <img src="https://komarev.com/ghpvc/?username=huachabobo&label=PROFILE%20VIEWS&color=ca6c97&style=for-the-badge" alt="Profile views counter" />
 </p>
 
@@ -51,37 +51,37 @@ I want product entrypoints, runtime, governance, docs, operator workflows, and o
 The public site gives the first mental model, while the docs expand the runtime, governance, and control-plane details.
 
 - 官网与文档中心：[leciabot-site.huach.top](https://leciabot-site.huach.top/)<br />Public site and docs: [leciabot-site.huach.top](https://leciabot-site.huach.top/)
-- 当前进度：`84%`，controlled-core V1 已进入 P1 evidence-ready / freeze audit 阶段。<br />Current progress: `84%`, with controlled-core V1 now in the P1 evidence-ready / freeze audit stage.
-- 当前形态：`self-hosted AgentOS control plane` · `operator recovery loop` · `P1 audit-ready`<br />Current shape: `self-hosted AgentOS control plane` · `operator recovery loop` · `P1 audit-ready`
+- 当前进度：`89%`，controlled-core V1 已进入 P2.5 Provider & Adapter beta proof 阶段。<br />Current progress: `89%`, with controlled-core V1 now in the P2.5 Provider & Adapter beta proof stage.
+- 当前形态：`self-hosted AgentOS control plane` · `P2 controlled-core beta` · `provider / adapter evidence`<br />Current shape: `self-hosted AgentOS control plane` · `P2 controlled-core beta` · `provider / adapter evidence`
 - 默认气质：`local-first` · `self-hosted` · `governable`<br />Default posture: `local-first` · `self-hosted` · `governable`
 - 默认要求：`safe` · `auditable` · `controllable`<br />Default expectations: `safe` · `auditable` · `controllable`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-dashboard.svg?v=20260521-p1-audit" alt="Lecia AgentOS mini dashboard" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-dashboard.svg?v=20260523-p2-5-beta" alt="Lecia AgentOS mini dashboard" />
 
 </div>
 
 ### 最新进度 / Latest Progress
 
-- P1 completion audit 的 required evidence 已经 `4/4` 通过：Provider bootstrap、clean first useful run、restore/update recovery drill、Compose deploy/recover smoke 都有可复盘产物。<br />The P1 completion audit now has `4/4` required evidence passing: Provider bootstrap, clean first useful run, restore/update recovery drill, and Compose deploy/recover smoke all have reviewable artifacts.
-- `compose-up smoke` 已经把 first-useful-run、restore、update-apply、secret-leak proof 与 runtime shutdown audit 收进结构化结果。<br />`compose-up smoke` now captures first-useful-run, restore, update-apply, secret-leak proof, and runtime shutdown audit in structured results.
-- Provider / adapter 真实路径继续变硬：OpenAI-compatible dialect 证据、Postgres first-wave phase status、OneBot/SnowLuma 预检与授权 QQ/NapCat Provider reply 都进入证据链。<br />Provider / adapter reality is getting stronger: OpenAI-compatible dialect evidence, Postgres first-wave phase status, OneBot/SnowLuma preflight, and authorized QQ/NapCat Provider reply are now part of the evidence chain.
-- 运维侧新增 runtime shutdown reason、server close audit、auto-ports、local-admin takeover password-file 与 artifact locator 收口。<br />Operations now include runtime shutdown reasons, server close audit, auto-ports, local-admin takeover password-file support, and tighter artifact locator handoff.
-- 当前剩余 follow-up 很明确：current data-dir local-admin security live check、recorded-SHA deferred CI 跟进，以及 current dirty-batch closeout。<br />The remaining follow-ups are explicit: current data-dir local-admin security live check, recorded-SHA deferred CI follow-up, and current dirty-batch closeout.
+- P2.1 到 P2.4 的守门审计已经全部通过：contract freeze `22/22`，persistence/migration `20/20`，governance `30 events / 21 evidence paths`，queue/worker lifecycle `16 events / 39 evidence paths`。<br />The P2.1 through P2.4 guard audits are all passing: contract freeze `22/22`, persistence/migration `20/20`, governance `30 events / 21 evidence paths`, and queue/worker lifecycle `16 events / 39 evidence paths`.
+- 当前主线是 `P2.5 Provider & Adapter Beta Proof`：Provider incident summaries、budget posture、fallback attempt、request class 与 background Provider failure evidence 正在被收进 route / audit / Web / artifact reader。<br />The active track is `P2.5 Provider & Adapter Beta Proof`: Provider incident summaries, budget posture, fallback attempts, request classes, and background Provider failure evidence are being carried through routes, audit, Web, and the artifact reader.
+- NapCat / OneBot / QQ 证明路径继续变硬：supported-command contract 已冻结，receipt state 能区分 accepted、rejected、missing、deferred，stale-ingress send guidance 也被 gated。<br />The NapCat / OneBot / QQ proof path is stronger: the supported-command contract is frozen, receipt states distinguish accepted, rejected, missing, and deferred, and stale-ingress send guidance is gated.
+- 最新本地 HEAD 是 `26055f9`，比 `origin/main` 领先 `20` 个提交；这些提交集中在 Provider/Adapter beta proof，而不是重新打开大架构。<br />The latest local HEAD is `26055f9`, `20` commits ahead of `origin/main`; those commits focus on Provider/Adapter beta proof instead of reopening broad architecture.
+- 当前边界也很清楚：本地 P2 验证为绿，但这批还需要 batch closeout / push，远端验证要等新的 pushed SHA 再重新跟进。<br />The boundary is clear too: local P2 validation is green, but this batch still needs closeout / push, and remote validation should be followed up again after the next pushed SHA.
 
 ### 已经进入真实形态 / Already Real
 
 - 官网与文档中心已经上线，产品入口和叙事骨架是完整的。<br />The public site and docs are live, and the product narrative now has a real entrypoint.
 - 核心仓库已经具备真实的 `web` / `server` / `CLI` / `persistence` / `runtime` 切片。<br />The core repo already has real `web` / `server` / `CLI` / `persistence` / `runtime` slices.
 - `approval`、`trust`、`snapshot`、`restore`、`observability` 这些治理能力已经不是概念，而是工程中的默认能力。<br />`approval`, `trust`, `snapshot`, `restore`, and `observability` are no longer ideas on paper, but default engineering capabilities.
-- 前台对话、后台任务、provider 路由、isolated execution、NapCat/OneBot 回执与恢复证据，正在被收进同一条可追踪的运行时链路。<br />Foreground chat, background jobs, provider routing, isolated execution, NapCat/OneBot receipts, and recovery evidence are being pulled into one traceable runtime chain.
+- 前台对话、后台任务、Provider incident、adapter readiness、NapCat/OneBot 回执与恢复证据，正在被收进同一条可追踪的运行时链路。<br />Foreground chat, background jobs, Provider incidents, adapter readiness, NapCat/OneBot receipts, and recovery evidence are being pulled into one traceable runtime chain.
 
 ### 持续打磨中 / Still Being Polished
 
-- 做 P1 freeze audit 前的最后收口：确认 current data-dir security、recorded-SHA deferred CI 与外部阻塞都被显式记录。<br />Close the last pre-freeze audit loop: make current data-dir security, recorded-SHA deferred CI, and external blockers explicit.
-- 继续把 Provider / adapter runtime、Postgres first-wave 与 NapCat/QQ 证明做成可复盘证据，而不是口头“能跑”。<br />Keep turning Provider / adapter runtime, Postgres first-wave, and NapCat/QQ proof into reviewable evidence instead of informal “it works” claims.
-- 强化 operator 视角下的 approval、auditability、artifact handoff、shutdown audit 与 recovery deep links。<br />Strengthen approval, auditability, artifact handoff, shutdown audit, and recovery deep links from the operator point of view.
+- 完成 P2.5 Provider / Adapter beta proof 的 batch closeout，把本地领先的 `20` 个提交收口成可推送状态。<br />Finish the P2.5 Provider / Adapter beta proof batch closeout and turn the `20` local-ahead commits into a push-ready state.
+- 继续把 Provider incident、budget / fallback posture、NapCat command contract 与 OneBot receipt recovery 做成可复盘证据，而不是口头“能跑”。<br />Keep turning Provider incidents, budget / fallback posture, NapCat command contracts, and OneBot receipt recovery into reviewable evidence instead of informal “it works” claims.
+- 准备进入 P2.6 observability / internal diagnostics，把 smoke-time evidence 进一步变成日常 operator signals。<br />Prepare for P2.6 observability / internal diagnostics, turning smoke-time evidence into daily operator signals.
 - 把 orchestration layer 继续做实，避免产品退化成单纯的 reply shell。<br />Keep building out orchestration so the product does not collapse into a reply shell.
 
 > `Lecia AgentOS` 核心仓库目前还在持续私有开发中，所以我把官网与文档中心作为当前最主要的对外入口。  
@@ -92,9 +92,9 @@ The public site gives the first mental model, while the docs expand the runtime,
 
 | Horizon | 中文 | English |
 | --- | --- | --- |
-| `Now` | 完成 P1 evidence-ready 后的 freeze audit：证据、关闭审计、本地 dirty-batch closeout、外部 CI 跟进与本地安全检查收口。 | Finish the post evidence-ready P1 freeze audit: evidence, shutdown audit, local dirty-batch closeout, external CI follow-up, and local security checks. |
-| `Next` | 进入 P2.1 contract freeze：把已使用的 routes、artifacts、handoff payloads 与 Provider/adapter 证据固化为共享契约。 | Move into P2.1 contract freeze: stabilize routes, artifacts, handoff payloads, and Provider/adapter evidence into shared contracts. |
-| `Later` | 让 runtime、governance、docs 与 orchestration 在同一套 self-hosted AgentOS 体验里自然闭环。 | Make runtime, governance, docs, and orchestration feel like one closed-loop self-hosted AgentOS experience. |
+| `Now` | 完成 P2.5 Provider / Adapter beta proof：Provider incident、budget posture、NapCat command contract 与 OneBot receipt recovery 收口。 | Finish P2.5 Provider / Adapter beta proof: Provider incidents, budget posture, NapCat command contracts, and OneBot receipt recovery. |
+| `Next` | 进入 P2.6 observability / internal diagnostics：把 smoke-time evidence 变成日常 operator signals 与诊断 bundle。 | Move into P2.6 observability / internal diagnostics: turn smoke-time evidence into daily operator signals and diagnostic bundles. |
+| `Later` | 进入 P3 external trial readiness：安装、首跑、恢复、更新、支持包与 trial checklist。 | Move into P3 external trial readiness: install, first run, restore, update, support bundles, and the trial checklist. |
 
 </details>
 
@@ -102,7 +102,7 @@ The public site gives the first mental model, while the docs expand the runtime,
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-now-building.svg?v=20260521-p1-audit" alt="Now building terminal status bar" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-now-building.svg?v=20260523-p2-5-beta" alt="Now building terminal status bar" />
 
 <sub>当前焦点，但用一条微型 control-plane terminal 来表达。 / Current focus, rendered like a tiny control-plane terminal.</sub>
 

@@ -73,11 +73,11 @@
     <text x="68" y="153" class="body">self-hosted agent systems, operator-first</text>
 
     <text x="68" y="196" class="small">Current progress</text>
-    <text x="384" y="196" class="small" text-anchor="end">84%</text>
+    <text x="384" y="196" class="small" text-anchor="end">89%</text>
 
     <rect x="68" y="210" width="316" height="12" rx="6" fill="#F2C3D5"/>
-    <rect x="68" y="210" width="265" height="12" rx="6" fill="url(#accent)">
-      <animate attributeName="width" values="248;265;248" dur="4.8s" repeatCount="indefinite"/>
+    <rect x="68" y="210" width="281" height="12" rx="6" fill="url(#accent)">
+      <animate attributeName="width" values="262;281;262" dur="4.8s" repeatCount="indefinite"/>
     </rect>
 
     <rect x="68" y="232" width="104" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.88"/>
@@ -106,10 +106,10 @@
     <circle cx="37" cy="165" r="5" fill="#FFEAF3">
       <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <text x="52" y="169" class="cardBody">P1 audit-ready</text>
+    <text x="52" y="169" class="cardBody">P2.5 beta proof</text>
     <circle cx="195" cy="165" r="5" fill="#FFEAF3">
       <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.45s" repeatCount="indefinite"/>
     </circle>
-    <text x="210" y="169" class="cardBody">shutdown proof</text>
+    <text x="210" y="169" class="cardBody">QQ receipts</text>
   </g>
 </svg>
