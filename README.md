@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-banner.svg?v=20260523-p2-5-beta" alt="huachabobo custom banner" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-banner.svg?v=20260601-p6-agentos" alt="huachabobo custom banner" />
 
 <br />
 <br />
@@ -20,7 +20,7 @@
   <a href="https://leciabot-site.huach.top/">
     <img src="https://img.shields.io/badge/Lecia%20AgentOS-Official%20Site-ca6c97?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Lecia AgentOS Official Site" />
   </a>
-  <img src="https://img.shields.io/badge/Current%20Progress-89%25-704f63?style=for-the-badge" alt="Current Progress 89%" />
+  <img src="https://img.shields.io/badge/Current%20Progress-95%25-704f63?style=for-the-badge" alt="Current Progress 95%" />
   <img src="https://komarev.com/ghpvc/?username=huachabobo&label=PROFILE%20VIEWS&color=ca6c97&style=for-the-badge" alt="Profile views counter" />
 </p>
 
@@ -51,38 +51,38 @@ I want product entrypoints, runtime, governance, docs, operator workflows, and o
 The public site gives the first mental model, while the docs expand the runtime, governance, and control-plane details.
 
 - 官网与文档中心：[leciabot-site.huach.top](https://leciabot-site.huach.top/)<br />Public site and docs: [leciabot-site.huach.top](https://leciabot-site.huach.top/)
-- 当前进度：`89%`，controlled-core V1 已进入 P2.5 Provider & Adapter beta proof 阶段。<br />Current progress: `89%`, with controlled-core V1 now in the P2.5 Provider & Adapter beta proof stage.
-- 当前形态：`self-hosted AgentOS control plane` · `P2 controlled-core beta` · `provider / adapter evidence`<br />Current shape: `self-hosted AgentOS control plane` · `P2 controlled-core beta` · `provider / adapter evidence`
+- 当前进度：`95%`，controlled-core V1 已进入 `P6 AgentOS completion roadmap`，正在把 P4/P5 的未来保留范围收束成有顺序的完成路线。<br />Current progress: `95%`, with controlled-core V1 now in the `P6 AgentOS completion roadmap`, turning P4/P5 future-reserved scope into an ordered completion path.
+- 当前形态：`self-hosted AgentOS control plane` · `P6 completion roadmap` · `runtime execution spine`<br />Current shape: `self-hosted AgentOS control plane` · `P6 completion roadmap` · `runtime execution spine`
 - 默认气质：`local-first` · `self-hosted` · `governable`<br />Default posture: `local-first` · `self-hosted` · `governable`
 - 默认要求：`safe` · `auditable` · `controllable`<br />Default expectations: `safe` · `auditable` · `controllable`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-dashboard.svg?v=20260523-p2-5-beta" alt="Lecia AgentOS mini dashboard" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-dashboard.svg?v=20260601-p6-agentos" alt="Lecia AgentOS mini dashboard" />
 
 </div>
 
 ### 最新进度 / Latest Progress
 
-- P2.1 到 P2.4 的守门审计已经全部通过：contract freeze `22/22`，persistence/migration `20/20`，governance `30 events / 21 evidence paths`，queue/worker lifecycle `16 events / 39 evidence paths`。<br />The P2.1 through P2.4 guard audits are all passing: contract freeze `22/22`, persistence/migration `20/20`, governance `30 events / 21 evidence paths`, and queue/worker lifecycle `16 events / 39 evidence paths`.
-- 当前主线是 `P2.5 Provider & Adapter Beta Proof`：Provider incident summaries、budget posture、fallback attempt、request class 与 background Provider failure evidence 正在被收进 route / audit / Web / artifact reader。<br />The active track is `P2.5 Provider & Adapter Beta Proof`: Provider incident summaries, budget posture, fallback attempts, request classes, and background Provider failure evidence are being carried through routes, audit, Web, and the artifact reader.
-- NapCat / OneBot / QQ 证明路径继续变硬：supported-command contract 已冻结，receipt state 能区分 accepted、rejected、missing、deferred，stale-ingress send guidance 也被 gated。<br />The NapCat / OneBot / QQ proof path is stronger: the supported-command contract is frozen, receipt states distinguish accepted, rejected, missing, and deferred, and stale-ingress send guidance is gated.
-- 最新本地 HEAD 是 `26055f9`，比 `origin/main` 领先 `20` 个提交；这些提交集中在 Provider/Adapter beta proof，而不是重新打开大架构。<br />The latest local HEAD is `26055f9`, `20` commits ahead of `origin/main`; those commits focus on Provider/Adapter beta proof instead of reopening broad architecture.
-- 当前边界也很清楚：本地 P2 验证为绿，但这批还需要 batch closeout / push，远端验证要等新的 pushed SHA 再重新跟进。<br />The boundary is clear too: local P2 validation is green, but this batch still needs closeout / push, and remote validation should be followed up again after the next pushed SHA.
+- 当前主线已经切到 `P6 AgentOS Completion Roadmap`：P6.0 做 remote closeout stabilization，P6.1 做 runtime execution spine。<br />The active track has moved to `P6 AgentOS Completion Roadmap`: P6.0 for remote closeout stabilization, and P6.1 for the runtime execution spine.
+- P4/P5 的未展开范围不再是含糊的“以后再说”，而是被放进 P6.0-P6.7 的有序路线：module activation、Bot-first ServerOps、governed ecosystem、Studio、multi-agent/self-tuning、hosted/adapters/companion expansion。<br />The unimplemented P4/P5 scope is no longer vague “later” work; it is now ordered into P6.0-P6.7 lanes: module activation, Bot-first ServerOps, governed ecosystem, Studio, multi-agent/self-tuning, and hosted/adapters/companion expansion.
+- 最新远端 HEAD 是 `7f161af7`，`origin/main` 已对齐；最近一批提交正在贯通后台执行、queued/retry/cancel/digest、bulk actions、run evidence 与 Web/operator 可见证据。<br />The latest remote HEAD is `7f161af7`, aligned with `origin/main`; the recent batch connects background execution, queued/retry/cancel/digest behavior, bulk actions, run evidence, and Web/operator-visible proof.
+- 本地验证已通过 `docs:current-work-item:check`、`docs:p6-agentos-completion-roadmap:audit`，以及 protocol / kernel / server / Web 的焦点测试。<br />Local validation passes `docs:current-work-item:check`, `docs:p6-agentos-completion-roadmap:audit`, plus focused protocol / kernel / server / Web tests.
+- 当前边界也很清楚：`compose-up-smoke` 已经绿了，`ci-core` 正在 P6.0 closeout triage 中，失败点集中在 automation retry-lineage 路径；P5 recorded-SHA / predecessor artifact alignment 被作为证据边界单独跟进。<br />The boundary is clear too: `compose-up-smoke` is green, while `ci-core` is in P6.0 closeout triage around the automation retry-lineage path; P5 recorded-SHA / predecessor artifact alignment is tracked separately as an evidence boundary.
 
 ### 已经进入真实形态 / Already Real
 
 - 官网与文档中心已经上线，产品入口和叙事骨架是完整的。<br />The public site and docs are live, and the product narrative now has a real entrypoint.
 - 核心仓库已经具备真实的 `web` / `server` / `CLI` / `persistence` / `runtime` 切片。<br />The core repo already has real `web` / `server` / `CLI` / `persistence` / `runtime` slices.
 - `approval`、`trust`、`snapshot`、`restore`、`observability` 这些治理能力已经不是概念，而是工程中的默认能力。<br />`approval`, `trust`, `snapshot`, `restore`, and `observability` are no longer ideas on paper, but default engineering capabilities.
-- 前台对话、后台任务、Provider incident、adapter readiness、NapCat/OneBot 回执与恢复证据，正在被收进同一条可追踪的运行时链路。<br />Foreground chat, background jobs, Provider incidents, adapter readiness, NapCat/OneBot receipts, and recovery evidence are being pulled into one traceable runtime chain.
+- 前台对话、后台任务、Provider incident、adapter readiness、NapCat/OneBot 回执、bulk action 与恢复证据，正在被收进同一条可追踪的运行时链路。<br />Foreground chat, background jobs, Provider incidents, adapter readiness, NapCat/OneBot receipts, bulk actions, and recovery evidence are being pulled into one traceable runtime chain.
 
 ### 持续打磨中 / Still Being Polished
 
-- 完成 P2.5 Provider / Adapter beta proof 的 batch closeout，把本地领先的 `20` 个提交收口成可推送状态。<br />Finish the P2.5 Provider / Adapter beta proof batch closeout and turn the `20` local-ahead commits into a push-ready state.
-- 继续把 Provider incident、budget / fallback posture、NapCat command contract 与 OneBot receipt recovery 做成可复盘证据，而不是口头“能跑”。<br />Keep turning Provider incidents, budget / fallback posture, NapCat command contracts, and OneBot receipt recovery into reviewable evidence instead of informal “it works” claims.
-- 准备进入 P2.6 observability / internal diagnostics，把 smoke-time evidence 进一步变成日常 operator signals。<br />Prepare for P2.6 observability / internal diagnostics, turning smoke-time evidence into daily operator signals.
-- 把 orchestration layer 继续做实，避免产品退化成单纯的 reply shell。<br />Keep building out orchestration so the product does not collapse into a reply shell.
+- 收口 P6.0：继续跟进最新 pushed SHA 的 `ci-core`，并把远端 CI / recorded-SHA / artifact alignment 和真实代码问题分开处理。<br />Close out P6.0: keep following the latest pushed SHA's `ci-core`, and separate remote CI / recorded-SHA / artifact alignment from real code issues.
+- 推进 P6.1：让 queue lease、resume、retry、cancel、digest、run_id 与 governance audit evidence 形成更真实的 runtime execution spine。<br />Advance P6.1: make queue lease, resume, retry, cancel, digest, run_id, and governance audit evidence form a more real runtime execution spine.
+- 后续进入 P6.2/P6.3：把 ThemePack / ExperienceProfile activation 与 OpsPack local operation execution 从 handoff evidence 推到受治理的真实动作。<br />Next, move into P6.2/P6.3: turn ThemePack / ExperienceProfile activation and OpsPack local operation execution from handoff evidence into governed real actions.
+- 再往后才扩展 ecosystem distribution、full Studio、multi-agent/self-tuning、hosted/adapters/companion shape。<br />Only after that should the system expand into ecosystem distribution, full Studio, multi-agent/self-tuning, and hosted/adapters/companion shape.
 
 > `Lecia AgentOS` 核心仓库目前还在持续私有开发中，所以我把官网与文档中心作为当前最主要的对外入口。  
 > The core repo is still under private development, so the public site and docs are the main public entry today.
@@ -92,9 +92,9 @@ The public site gives the first mental model, while the docs expand the runtime,
 
 | Horizon | 中文 | English |
 | --- | --- | --- |
-| `Now` | 完成 P2.5 Provider / Adapter beta proof：Provider incident、budget posture、NapCat command contract 与 OneBot receipt recovery 收口。 | Finish P2.5 Provider / Adapter beta proof: Provider incidents, budget posture, NapCat command contracts, and OneBot receipt recovery. |
-| `Next` | 进入 P2.6 observability / internal diagnostics：把 smoke-time evidence 变成日常 operator signals 与诊断 bundle。 | Move into P2.6 observability / internal diagnostics: turn smoke-time evidence into daily operator signals and diagnostic bundles. |
-| `Later` | 进入 P3 external trial readiness：安装、首跑、恢复、更新、支持包与 trial checklist。 | Move into P3 external trial readiness: install, first run, restore, update, support bundles, and the trial checklist. |
+| `Now` | P6.0/P6.1：远端 closeout 稳定化，继续把后台执行与 bulk runtime evidence 串成 runtime spine。 | P6.0/P6.1: stabilize remote closeout and keep connecting background execution plus bulk runtime evidence into the runtime spine. |
+| `Next` | P6.2/P6.3：模块激活真实化，以及 Bot-first ServerOps 的本地受治理执行。 | P6.2/P6.3: make module activation real, then add governed local Bot-first ServerOps execution. |
+| `Later` | P6.4-P6.7：外部分发、完整 Studio、多智能体/自调优、hosted/adapter/companion 扩展。 | P6.4-P6.7: external distribution, full Studio, multi-agent/self-tuning, and hosted/adapter/companion expansion. |
 
 </details>
 
@@ -102,7 +102,7 @@ The public site gives the first mental model, while the docs expand the runtime,
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-now-building.svg?v=20260523-p2-5-beta" alt="Now building terminal status bar" />
+<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/lecia-agentos-now-building.svg?v=20260601-p6-agentos" alt="Now building terminal status bar" />
 
 <sub>当前焦点，但用一条微型 control-plane terminal 来表达。 / Current focus, rendered like a tiny control-plane terminal.</sub>
 

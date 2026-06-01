@@ -1,6 +1,6 @@
 <svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">huachabobo profile banner</title>
-  <desc id="desc">A cute and professional banner for huachabobo featuring Lecia AgentOS, an 89 percent progress badge, and a soft pink control-plane themed layout.</desc>
+  <desc id="desc">A cute and professional banner for huachabobo featuring Lecia AgentOS, a 95 percent progress badge, and a soft pink control-plane themed layout.</desc>
   <defs>
     <linearGradient id="bg" x1="76" y1="52" x2="1214" y2="326" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#FFF5FA"/>
@@ -117,8 +117,8 @@
 
   <g transform="translate(746 72)">
     <animateTransform attributeName="transform" type="translate" values="746 72;746 66;746 72" dur="5.5s" repeatCount="indefinite"/>
-    <rect x="0" y="0" width="428" height="216" rx="28" fill="url(#card)"/>
-    <rect x="0.75" y="0.75" width="426.5" height="214.5" rx="27.25" stroke="#FFDCE8" stroke-opacity="0.4" stroke-width="1.5"/>
+    <rect x="0" y="0" width="428" height="244" rx="28" fill="url(#card)"/>
+    <rect x="0.75" y="0.75" width="426.5" height="242.5" rx="27.25" stroke="#FFDCE8" stroke-opacity="0.4" stroke-width="1.5"/>
 
     <rect x="24" y="22" width="138" height="34" rx="17" fill="#FFD5E6" fill-opacity="0.18"/>
     <text x="93" y="39" class="tiny" text-anchor="middle" dominant-baseline="middle">live profile</text>
@@ -130,16 +130,16 @@
     <circle cx="409" cy="38" r="6" fill="#FFD0E2" fill-opacity="0.8"/>
 
     <text x="24" y="96" class="cardTitle">Lecia AgentOS</text>
-    <text x="24" y="126" class="cardBody">P2.5 beta-proof AgentOS control plane with</text>
-    <text x="24" y="148" class="cardBody">Provider incidents and QQ receipts.</text>
+    <text x="24" y="126" class="cardBody">P6 AgentOS completion roadmap with</text>
+    <text x="24" y="148" class="cardBody">runtime spine and closeout truth.</text>
 
     <rect x="24" y="172" width="380" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.18"/>
-    <rect x="24" y="172" width="338" height="12" rx="6" fill="url(#bar)">
-      <animate attributeName="width" values="314;338;314" dur="4s" repeatCount="indefinite"/>
+    <rect x="24" y="172" width="361" height="12" rx="6" fill="url(#bar)">
+      <animate attributeName="width" values="338;361;338" dur="4s" repeatCount="indefinite"/>
     </rect>
 
     <text x="24" y="204" class="tiny">current progress</text>
-    <text x="332" y="204" class="cardBody" text-anchor="end">89%</text>
+    <text x="332" y="204" class="cardBody" text-anchor="end">95%</text>
     <text x="24" y="228" class="cardBody">local-first</text>
     <text x="132" y="228" class="cardBody">self-hosted</text>
     <text x="270" y="228" class="cardBody">governable</text>
