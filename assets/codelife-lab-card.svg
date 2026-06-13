@@ -1,0 +1,111 @@
+<svg width="960" height="260" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CodeLife Lab research card</title>
+  <desc id="desc">A soft laboratory themed card for CodeLife Lab showing non-LLM digital life research, CI green status, and post-support diagnostics progress.</desc>
+  <defs>
+    <linearGradient id="panel" x1="42" y1="32" x2="918" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F9FFF9"/>
+      <stop offset="0.56" stop-color="#E9F8F0"/>
+      <stop offset="1" stop-color="#F8DDEB"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="536" y1="50" x2="856" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3E806D"/>
+      <stop offset="1" stop-color="#8F5069"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="236" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86D9B2"/>
+      <stop offset="1" stop-color="#FFD8E8"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="960" height="260" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#7AAE94" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .label {
+        font: 700 13px "Trebuchet MS", "Segoe UI", sans-serif;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        fill: #4F8F7A;
+      }
+      .title {
+        font: 700 34px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #365A50;
+      }
+      .body {
+        font: 600 16px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #5B766B;
+      }
+      .mono {
+        font: 700 14px "SFMono-Regular", "Consolas", "Menlo", monospace;
+        fill: #FFF8FB;
+      }
+      .tiny {
+        font: 700 12px "Trebuchet MS", "Segoe UI", sans-serif;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        fill: #F7FFF9;
+      }
+      .chip {
+        font: 700 13px "Trebuchet MS", "Segoe UI", sans-serif;
+        fill: #4E8372;
+      }
+    </style>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="28" y="24" width="904" height="212" rx="28" fill="url(#panel)"/>
+  </g>
+  <rect x="28.75" y="24.75" width="902.5" height="210.5" rx="27.25" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.5"/>
+
+  <g opacity="0.2">
+    <circle cx="92" cy="76" r="4" fill="#4F8F7A"/>
+    <circle cx="92" cy="112" r="4" fill="#4F8F7A"/>
+    <circle cx="92" cy="148" r="4" fill="#4F8F7A"/>
+    <circle cx="870" cy="88" r="4" fill="#FFFFFF"/>
+    <circle cx="842" cy="88" r="4" fill="#FFFFFF"/>
+    <circle cx="814" cy="88" r="4" fill="#FFFFFF"/>
+  </g>
+
+  <g>
+    <rect x="68" y="58" width="132" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.86"/>
+    <text x="134" y="73" class="label" text-anchor="middle" dominant-baseline="middle">digital life</text>
+
+    <text x="68" y="128" class="title">CodeLife Lab</text>
+    <text x="68" y="156" class="body">non-LLM organisms on LifeVM and CIL genomes</text>
+    <text x="68" y="182" class="body">post-support diagnostics now explain lineage pressure.</text>
+
+    <rect x="68" y="202" width="104" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.88"/>
+    <text x="120" y="215" class="chip" text-anchor="middle" dominant-baseline="middle">CI green</text>
+    <rect x="184" y="202" width="132" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.78"/>
+    <text x="250" y="215" class="chip" text-anchor="middle" dominant-baseline="middle">Milestone 357</text>
+    <rect x="328" y="202" width="154" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.7"/>
+    <text x="405" y="215" class="chip" text-anchor="middle" dominant-baseline="middle">public evidence</text>
+  </g>
+
+  <g transform="translate(532 46)">
+    <rect x="0" y="0" width="360" height="166" rx="24" fill="url(#screen)"/>
+    <rect x="0.75" y="0.75" width="358.5" height="164.5" rx="23.25" stroke="#E7FFF2" stroke-opacity="0.46" stroke-width="1.5"/>
+
+    <text x="28" y="38" class="tiny">current signal</text>
+    <text x="28" y="66" class="mono">support -> sampling -> dispatch</text>
+
+    <rect x="28" y="86" width="236" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.2"/>
+    <rect x="28" y="86" width="214" height="10" rx="5" fill="url(#pulse)">
+      <animate attributeName="width" values="190;214;190" dur="4.6s" repeatCount="indefinite"/>
+    </rect>
+
+    <circle cx="54" cy="125" r="7" fill="#C7F4D8">
+      <animate attributeName="r" values="6;8;6" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="72" y="130" class="mono">reproduction</text>
+
+    <circle cx="192" cy="125" r="7" fill="#FFD8E8">
+      <animate attributeName="r" values="6;8;6" dur="2.4s" begin="0.45s" repeatCount="indefinite"/>
+    </circle>
+    <text x="210" y="130" class="mono">death / rejection</text>
+
+    <text x="28" y="154" class="mono">next focus: dispatch_probability</text>
+  </g>
+
+  <path d="M806 42L811.39 53.61L823 59L811.39 64.39L806 76L800.61 64.39L789 59L800.61 53.61L806 42Z" fill="#FFFFFF" fill-opacity="0.78">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+</svg>

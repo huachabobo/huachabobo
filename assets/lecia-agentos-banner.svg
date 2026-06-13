@@ -1,6 +1,6 @@
 <svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">huachabobo profile banner</title>
-  <desc id="desc">A cute and professional banner for huachabobo featuring Lecia AgentOS, a 95 percent progress badge, and a soft pink control-plane themed layout.</desc>
+  <desc id="desc">A cute and professional banner for huachabobo featuring Lecia AgentOS, CodeLife Lab, a 97 percent progress badge, and a soft pink control-plane themed layout.</desc>
   <defs>
     <linearGradient id="bg" x1="76" y1="52" x2="1214" y2="326" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#FFF5FA"/>
@@ -100,8 +100,8 @@
   <g>
     <text x="86" y="164" class="title">花茶 / huachabobo</text>
     <text x="86" y="197" class="subtitle">cute, serious, and governable AI systems</text>
-    <text x="86" y="236" class="body">Lecia AgentOS builder for self-hosted teams,</text>
-    <text x="86" y="264" class="body">turning docs, runtime, and governance into one control plane.</text>
+    <text x="86" y="236" class="body">Lecia AgentOS builder and CodeLife researcher,</text>
+    <text x="86" y="264" class="body">turning runtime, governance, and evidence into durable systems.</text>
   </g>
 
   <g>
@@ -130,16 +130,16 @@
     <circle cx="409" cy="38" r="6" fill="#FFD0E2" fill-opacity="0.8"/>
 
     <text x="24" y="96" class="cardTitle">Lecia AgentOS</text>
-    <text x="24" y="126" class="cardBody">P6 AgentOS completion roadmap with</text>
-    <text x="24" y="148" class="cardBody">runtime spine and closeout truth.</text>
+    <text x="24" y="126" class="cardBody">P6.7 readiness closeout with</text>
+    <text x="24" y="148" class="cardBody">queue preflight evidence.</text>
 
     <rect x="24" y="172" width="380" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.18"/>
-    <rect x="24" y="172" width="361" height="12" rx="6" fill="url(#bar)">
-      <animate attributeName="width" values="338;361;338" dur="4s" repeatCount="indefinite"/>
+    <rect x="24" y="172" width="369" height="12" rx="6" fill="url(#bar)">
+      <animate attributeName="width" values="361;369;361" dur="4s" repeatCount="indefinite"/>
     </rect>
 
     <text x="24" y="204" class="tiny">current progress</text>
-    <text x="332" y="204" class="cardBody" text-anchor="end">95%</text>
+    <text x="332" y="204" class="cardBody" text-anchor="end">97%</text>
     <text x="24" y="228" class="cardBody">local-first</text>
     <text x="132" y="228" class="cardBody">self-hosted</text>
     <text x="270" y="228" class="cardBody">governable</text>
