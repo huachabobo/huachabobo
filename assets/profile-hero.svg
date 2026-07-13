@@ -1,0 +1,104 @@
+<svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">huachabobo field notes</title>
+  <desc id="desc">A warm editorial profile banner for huachabobo, connecting Lecia AgentOS, digital life research, and evidence-driven systems.</desc>
+  <defs>
+    <linearGradient id="paper" x1="38" y1="18" x2="1154" y2="424" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF7F0"/>
+      <stop offset="0.58" stop-color="#F5EBDD"/>
+      <stop offset="1" stop-color="#F7D8DE"/>
+    </linearGradient>
+    <linearGradient id="tea" x1="907" y1="124" x2="1020" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8DA1"/>
+      <stop offset="1" stop-color="#F2C760"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.4" fill="#211F1E" fill-opacity="0.12"/>
+    </pattern>
+    <filter id="shadow" x="0" y="0" width="1200" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#352C28" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .display { font: 700 58px Georgia, "Times New Roman", serif; fill: #211F1E; letter-spacing: -0.035em; }
+      .cn { font: 700 72px "Songti SC", "STSong", Georgia, serif; fill: #211F1E; }
+      .sans { font-family: "Avenir Next", "Trebuchet MS", sans-serif; fill: #211F1E; }
+      .mono { font-family: "SFMono-Regular", Consolas, Menlo, monospace; }
+      .label { font-size: 13px; font-weight: 800; letter-spacing: 0.14em; }
+      .copy { font-size: 22px; font-weight: 600; }
+      .small { font-size: 14px; font-weight: 700; }
+      .white { fill: #FFF9F0; }
+    </style>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="10" y="10" width="1180" height="420" rx="34" fill="url(#paper)"/>
+  </g>
+  <rect x="10.75" y="10.75" width="1178.5" height="418.5" rx="33.25" stroke="#211F1E" stroke-width="1.5"/>
+  <rect x="24" y="24" width="724" height="392" rx="25" fill="url(#dots)"/>
+
+  <g class="sans">
+    <rect x="58" y="48" width="190" height="34" rx="17" fill="#211F1E"/>
+    <text x="153" y="70" class="label white" text-anchor="middle">FIELD NOTES / 2026</text>
+    <text x="702" y="70" class="label" text-anchor="end">WUXI, CHINA</text>
+
+    <text x="58" y="164" class="cn">花茶</text>
+    <text x="58" y="218" class="display">huachabobo</text>
+
+    <text x="60" y="274" class="copy">把可爱留在表面，把证据、边界与恢复能力放进系统里。</text>
+    <text x="60" y="308" class="copy" opacity="0.72">Soft on the surface. Evidence-driven underneath.</text>
+
+    <rect x="58" y="350" width="176" height="38" rx="19" fill="#FF8DA1"/>
+    <text x="146" y="374" class="small" text-anchor="middle">LECIA AGENTOS</text>
+    <rect x="246" y="350" width="158" height="38" rx="19" fill="#92C9A8"/>
+    <text x="325" y="374" class="small" text-anchor="middle">DIGITAL LIFE</text>
+    <rect x="416" y="350" width="172" height="38" rx="19" fill="#F2C760"/>
+    <text x="502" y="374" class="small" text-anchor="middle">SYSTEM EVIDENCE</text>
+  </g>
+
+  <g>
+    <rect x="778" y="42" width="364" height="356" rx="29" fill="#211F1E"/>
+    <rect x="779" y="43" width="362" height="354" rx="28" stroke="#FFF9F0" stroke-opacity="0.16" stroke-width="2"/>
+    <text x="810" y="78" class="sans label white">CURRENT ORBITS</text>
+    <circle cx="1103" cy="71" r="5" fill="#92C9A8">
+      <animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="960" cy="203" r="100" stroke="#FFF9F0" stroke-opacity="0.18" stroke-width="1.5"/>
+    <circle cx="960" cy="203" r="78" stroke="#FFF9F0" stroke-opacity="0.38" stroke-width="2" stroke-dasharray="5 13">
+      <animate attributeName="stroke-dashoffset" values="0;-72" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <g>
+      <circle cx="960" cy="203" r="47" fill="url(#tea)"/>
+      <path d="M945 205C945 187 962 177 978 181C976 199 966 210 945 213V205Z" fill="#211F1E"/>
+      <path d="M944 215H977C977 232 970 240 960 240C950 240 944 232 944 215Z" fill="#FFF9F0"/>
+      <path d="M977 219H984C991 219 993 228 987 232H977" stroke="#FFF9F0" stroke-width="5" stroke-linecap="round"/>
+    </g>
+
+    <g>
+      <circle cx="960" cy="103" r="12" fill="#FF8DA1">
+        <animate attributeName="r" values="10;13;10" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1053" cy="239" r="12" fill="#92C9A8">
+        <animate attributeName="r" values="10;13;10" dur="3s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="872" cy="249" r="12" fill="#F2C760">
+        <animate attributeName="r" values="10;13;10" dur="3s" begin="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <text x="960" y="128" class="sans label white" text-anchor="middle">AGENTOS</text>
+    <text x="1064" y="267" class="sans label white" text-anchor="middle">LIFE</text>
+    <text x="859" y="278" class="sans label white" text-anchor="middle">EVIDENCE</text>
+
+    <rect x="808" y="326" width="304" height="42" rx="12" fill="#FFF9F0" fill-opacity="0.08"/>
+    <text x="826" y="352" class="mono small white">build / observe / govern / repeat</text>
+    <rect x="1095" y="339" width="7" height="17" rx="2" fill="#FF8DA1">
+      <animate attributeName="opacity" values="1;0.15;1" dur="1.05s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <path d="M742 109L755 115L742 121L729 115L742 109Z" fill="#FF8DA1">
+    <animateTransform attributeName="transform" type="rotate" from="0 742 115" to="360 742 115" dur="7s" repeatCount="indefinite"/>
+  </path>
+</svg>

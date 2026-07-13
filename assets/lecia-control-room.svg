@@ -1,0 +1,118 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lecia AgentOS control room</title>
+  <desc id="desc">A dark editorial system map for the current Lecia AgentOS Provider-native governed task execution path.</desc>
+  <defs>
+    <linearGradient id="ink" x1="20" y1="16" x2="1164" y2="542" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24211F"/>
+      <stop offset="1" stop-color="#171615"/>
+    </linearGradient>
+    <linearGradient id="route" x1="70" y1="298" x2="807" y2="298" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8DA1"/>
+      <stop offset="0.5" stop-color="#F2C760"/>
+      <stop offset="1" stop-color="#92C9A8"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#FFF9F0" stroke-opacity="0.055"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <style>
+      .display { font: 700 54px Georgia, "Times New Roman", serif; fill: #FFF9F0; letter-spacing: -0.03em; }
+      .sans { font-family: "Avenir Next", "Trebuchet MS", sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, Menlo, monospace; }
+      .label { font-size: 13px; font-weight: 800; letter-spacing: 0.13em; }
+      .body { font-size: 20px; font-weight: 600; }
+      .small { font-size: 14px; font-weight: 700; }
+      .tiny { font-size: 12px; font-weight: 700; }
+      .paper { fill: #FFF9F0; }
+      .ink { fill: #211F1E; }
+      .muted { fill: #CFC6BA; }
+    </style>
+  </defs>
+
+  <rect x="8" y="8" width="1184" height="544" rx="34" fill="url(#ink)"/>
+  <rect x="8.75" y="8.75" width="1182.5" height="542.5" rx="33.25" stroke="#211F1E" stroke-width="1.5"/>
+  <rect x="26" y="26" width="1148" height="508" rx="24" fill="url(#grid)"/>
+
+  <g class="sans">
+    <rect x="54" y="48" width="164" height="34" rx="17" fill="#FF8DA1"/>
+    <text x="136" y="70" class="label ink" text-anchor="middle">01 / FLAGSHIP</text>
+    <text x="54" y="143" class="display">Lecia AgentOS</text>
+    <text x="56" y="178" class="body muted">self-hosted control plane · operator-first · governance by default</text>
+
+    <rect x="890" y="48" width="252" height="34" rx="17" fill="#FFF9F0" fill-opacity="0.08"/>
+    <circle cx="912" cy="65" r="6" fill="#92C9A8">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="928" y="70" class="mono small paper">REMOTE HEAD 4433330c</text>
+  </g>
+
+  <g>
+    <text x="56" y="232" class="sans label muted">CURRENT EXECUTION LOOP / P164</text>
+    <path d="M106 299H762" stroke="#FFF9F0" stroke-opacity="0.16" stroke-width="14" stroke-linecap="round"/>
+    <path d="M106 299H762" stroke="url(#route)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 14">
+      <animate attributeName="stroke-dashoffset" values="0;-96" dur="4s" repeatCount="indefinite"/>
+    </path>
+
+    <g class="sans">
+      <circle cx="106" cy="299" r="34" fill="#FF8DA1"/>
+      <text x="106" y="304" class="label ink" text-anchor="middle">01</text>
+      <text x="106" y="352" class="small paper" text-anchor="middle">CREATE / START</text>
+      <text x="106" y="374" class="tiny muted" text-anchor="middle">operator intent</text>
+
+      <circle cx="326" cy="299" r="34" fill="#F2C760"/>
+      <text x="326" y="304" class="label ink" text-anchor="middle">02</text>
+      <text x="326" y="352" class="small paper" text-anchor="middle">LIVE FOLLOW</text>
+      <text x="326" y="374" class="tiny muted" text-anchor="middle">runtime truth</text>
+
+      <circle cx="546" cy="299" r="34" fill="#FFB0BE"/>
+      <text x="546" y="304" class="label ink" text-anchor="middle">03</text>
+      <text x="546" y="352" class="small paper" text-anchor="middle">QUEUE ACTION</text>
+      <text x="546" y="374" class="tiny muted" text-anchor="middle">policy preflight</text>
+
+      <circle cx="762" cy="299" r="34" fill="#92C9A8">
+        <animate attributeName="r" values="31;36;31" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="762" y="304" class="label ink" text-anchor="middle">04</text>
+      <text x="762" y="352" class="small paper" text-anchor="middle">ABORT + AUDIT</text>
+      <text x="762" y="374" class="tiny muted" text-anchor="middle">zero continuation</text>
+    </g>
+  </g>
+
+  <g class="sans">
+    <rect x="850" y="116" width="292" height="276" rx="24" fill="#FFF9F0"/>
+    <text x="878" y="154" class="label ink">CONTROL ROOM</text>
+    <text x="878" y="193" class="body ink">Provider-native task</text>
+    <text x="878" y="221" class="small ink" opacity="0.64">active fixed preset</text>
+
+    <line x1="878" y1="244" x2="1114" y2="244" stroke="#211F1E" stroke-opacity="0.14"/>
+    <circle cx="888" cy="274" r="6" fill="#92C9A8"/>
+    <text x="904" y="279" class="small ink">governed queue only</text>
+    <circle cx="888" cy="310" r="6" fill="#92C9A8"/>
+    <text x="904" y="315" class="small ink">Provider request aborted</text>
+    <circle cx="888" cy="346" r="6" fill="#92C9A8"/>
+    <text x="904" y="351" class="small ink">reviewable evidence emitted</text>
+
+    <rect x="878" y="366" width="236" height="1" fill="#211F1E" fill-opacity="0.14"/>
+  </g>
+
+  <g class="sans">
+    <rect x="54" y="424" width="328" height="82" rx="18" fill="#FFF9F0" fill-opacity="0.075"/>
+    <text x="76" y="452" class="label paper">RUNTIME</text>
+    <text x="76" y="480" class="small muted">start · follow · recover · rearm</text>
+
+    <rect x="396" y="424" width="328" height="82" rx="18" fill="#FFF9F0" fill-opacity="0.075"/>
+    <text x="418" y="452" class="label paper">GOVERNANCE</text>
+    <text x="418" y="480" class="small muted">transition bypass fails closed</text>
+
+    <rect x="738" y="424" width="404" height="82" rx="18" fill="#FFF9F0" fill-opacity="0.075"/>
+    <text x="760" y="452" class="label paper">HOSTED CI</text>
+    <text x="760" y="480" class="small muted">account-gated before job execution</text>
+    <circle cx="1110" cy="466" r="7" fill="#F2C760"/>
+  </g>
+
+  <circle cx="764" cy="299" r="46" fill="#92C9A8" fill-opacity="0.12" filter="url(#soft)">
+    <animate attributeName="r" values="40;54;40" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
