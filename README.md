@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/profile-hero.svg?v=20260713-rebuild" alt="huachabobo / AI systems and digital life field notes" width="100%" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/profile-hero.svg?v=20260715-dual-core-gif" />
+  <img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/profile-hero.gif?v=20260715-dual-core-gif" alt="huachabobo / Lecia AgentOS and CodeLife dual-core boot sequence" width="100%" />
+</picture>
 
 <p>
   <a href="https://leciabot-site.huach.top/"><strong>LECIA AGENTOS / DOCS</strong></a>

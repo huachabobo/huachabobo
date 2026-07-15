@@ -1,104 +1,301 @@
-<svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">huachabobo field notes</title>
-  <desc id="desc">A warm editorial profile banner for huachabobo, connecting Lecia AgentOS, digital life research, and evidence-driven systems.</desc>
+<svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">huachabobo dual-core boot sequence</title>
+  <desc id="desc">A cinematic dual-core animation where Lecia AgentOS governance and CodeLife digital-life research converge into the Huacha system core.</desc>
   <defs>
-    <linearGradient id="paper" x1="38" y1="18" x2="1154" y2="424" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FBF7F0"/>
-      <stop offset="0.58" stop-color="#F5EBDD"/>
-      <stop offset="1" stop-color="#F7D8DE"/>
+    <linearGradient id="void" x1="24" y1="18" x2="1176" y2="446" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10131A"/>
+      <stop offset="0.54" stop-color="#171419"/>
+      <stop offset="1" stop-color="#111A18"/>
     </linearGradient>
-    <linearGradient id="tea" x1="907" y1="124" x2="1020" y2="236" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FF8DA1"/>
-      <stop offset="1" stop-color="#F2C760"/>
+    <linearGradient id="leciaFlow" x1="70" y1="220" x2="535" y2="212" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7894"/>
+      <stop offset="0.55" stop-color="#F5C768"/>
+      <stop offset="1" stop-color="#FFF3D8"/>
     </linearGradient>
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="3" cy="3" r="1.4" fill="#211F1E" fill-opacity="0.12"/>
+    <linearGradient id="lifeFlow" x1="665" y1="212" x2="1138" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF3D8"/>
+      <stop offset="0.45" stop-color="#6EE7B7"/>
+      <stop offset="1" stop-color="#7AA2FF"/>
+    </linearGradient>
+    <radialGradient id="coreFill" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(585 191) rotate(51.3) scale(91)">
+      <stop stop-color="#FFF7E8"/>
+      <stop offset="0.46" stop-color="#F5C768"/>
+      <stop offset="1" stop-color="#FF7894"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6EE7B7" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#6EE7B7" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#FFF7E8" stop-opacity="0.48"/>
+      <stop offset="0.8" stop-color="#FF7894" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FF7894" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#FFF7E8" stroke-opacity="0.055"/>
+      <circle cx="0" cy="0" r="1" fill="#FFF7E8" fill-opacity="0.12"/>
     </pattern>
-    <filter id="shadow" x="0" y="0" width="1200" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#352C28" flood-opacity="0.12"/>
-    </filter>
     <style>
-      .display { font: 700 58px Georgia, "Times New Roman", serif; fill: #211F1E; letter-spacing: -0.035em; }
-      .cn { font: 700 72px "Songti SC", "STSong", Georgia, serif; fill: #211F1E; }
-      .sans { font-family: "Avenir Next", "Trebuchet MS", sans-serif; fill: #211F1E; }
+      .sans { font-family: "Avenir Next", "Trebuchet MS", sans-serif; }
       .mono { font-family: "SFMono-Regular", Consolas, Menlo, monospace; }
-      .label { font-size: 13px; font-weight: 800; letter-spacing: 0.14em; }
-      .copy { font-size: 22px; font-weight: 600; }
-      .small { font-size: 14px; font-weight: 700; }
-      .white { fill: #FFF9F0; }
+      .cn { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .paper { fill: #FFF7E8; }
+      .muted { fill: #A9AAA9; }
+      .label { font-size: 12px; font-weight: 800; letter-spacing: 0.14em; }
+      .small { font-size: 13px; font-weight: 700; }
+      .node-label { font-size: 11px; font-weight: 800; letter-spacing: 0.08em; }
+      .headline { font-size: 29px; font-weight: 800; letter-spacing: 0.075em; }
+      .route-left, .route-right { stroke-dasharray: 720; stroke-dashoffset: 0; }
+      .route-left { animation: traceLeft 12s cubic-bezier(.22,.78,.28,1) infinite; }
+      .route-right { animation: traceRight 12s cubic-bezier(.22,.78,.28,1) infinite; }
+      .signal-line { animation: signalLine 3s ease-in-out infinite; }
+      .core-shell { animation: coreBreathe 3.2s ease-in-out infinite; }
+      .orbit-fast { animation: orbitBlink 2.8s ease-in-out infinite; }
+      .orbit-slow { animation: orbitDash 8s linear infinite; }
+      .petal-a { animation: petalPulse 3.6s 0s ease-in-out infinite; }
+      .petal-b { animation: petalPulse 3.6s .6s ease-in-out infinite; }
+      .petal-c { animation: petalPulse 3.6s 1.2s ease-in-out infinite; }
+      .petal-d { animation: petalPulse 3.6s 1.8s ease-in-out infinite; }
+      .petal-e { animation: petalPulse 3.6s 2.4s ease-in-out infinite; }
+      .petal-f { animation: petalPulse 3.6s 3s ease-in-out infinite; }
+      .node-l1 { animation: nodePulse 12s 0.45s ease infinite; }
+      .node-l2 { animation: nodePulse 12s 1.35s ease infinite; }
+      .node-l3 { animation: nodePulse 12s 2.25s ease infinite; }
+      .node-l4 { animation: nodePulse 12s 3.15s ease infinite; }
+      .node-r1 { animation: nodePulseMint 12s 3.1s ease infinite; }
+      .node-r2 { animation: nodePulseMint 12s 4s ease infinite; }
+      .node-r3 { animation: nodePulseMint 12s 4.9s ease infinite; }
+      .node-r4 { animation: nodePulseMint 12s 5.8s ease infinite; }
+      .status { opacity: 0; }
+      .status-boot { animation: statusBoot 12s ease infinite; }
+      .status-policy { animation: statusPolicy 12s ease infinite; }
+      .status-lineage { animation: statusLineage 12s ease infinite; }
+      .status-online { animation: statusOnline 12s ease infinite; }
+      .final-copy { opacity: 0; animation: finalReveal 12s ease infinite; }
+      .spark-a { animation: sparkFloat 4.8s ease-in-out infinite; }
+      .spark-b { animation: sparkFloat 5.6s 1.1s ease-in-out infinite; }
+      .spark-c { animation: sparkFloat 4.2s 2s ease-in-out infinite; }
+
+      @keyframes traceLeft {
+        0%, 5% { stroke-dashoffset: 720; opacity: .16; }
+        32%, 92% { stroke-dashoffset: 0; opacity: 1; }
+        100% { stroke-dashoffset: -56; opacity: .28; }
+      }
+      @keyframes traceRight {
+        0%, 24% { stroke-dashoffset: 720; opacity: .12; }
+        58%, 92% { stroke-dashoffset: 0; opacity: 1; }
+        100% { stroke-dashoffset: -56; opacity: .28; }
+      }
+      @keyframes signalLine {
+        0%, 100% { opacity: .08; }
+        50% { opacity: .52; }
+      }
+      @keyframes coreBreathe {
+        0%, 100% { opacity: .72; }
+        50% { opacity: 1; }
+      }
+      @keyframes orbitDash {
+        to { stroke-dashoffset: -120; }
+      }
+      @keyframes orbitBlink {
+        0%, 100% { opacity: .38; }
+        50% { opacity: 1; }
+      }
+      @keyframes petalPulse {
+        0%, 100% { opacity: .58; }
+        18%, 36% { opacity: 1; }
+      }
+      @keyframes nodePulse {
+        0%, 4%, 100% { opacity: .72; }
+        7% { opacity: 1; }
+        11% { opacity: .84; }
+      }
+      @keyframes nodePulseMint {
+        0%, 4%, 100% { opacity: .72; }
+        7% { opacity: 1; }
+        11% { opacity: .84; }
+      }
+      @keyframes statusBoot {
+        0%, 3%, 23%, 100% { opacity: 0; }
+        6%, 20% { opacity: 1; }
+      }
+      @keyframes statusPolicy {
+        0%, 19%, 42%, 100% { opacity: 0; }
+        23%, 39% { opacity: 1; }
+      }
+      @keyframes statusLineage {
+        0%, 38%, 62%, 100% { opacity: 0; }
+        43%, 59% { opacity: 1; }
+      }
+      @keyframes statusOnline {
+        0%, 57%, 100% { opacity: 0; }
+        63%, 94% { opacity: 1; }
+      }
+      @keyframes finalReveal {
+        0%, 49%, 100% { opacity: 0; }
+        60%, 94% { opacity: 1; }
+      }
+      @keyframes sparkFloat {
+        0%, 100% { opacity: .24; }
+        50% { opacity: .9; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .route-left, .route-right, .signal-line, .core-shell, .orbit-fast, .orbit-slow,
+        .petal-a, .petal-b, .petal-c, .petal-d, .petal-e, .petal-f,
+        .node-l1, .node-l2, .node-l3, .node-l4, .node-r1, .node-r2, .node-r3, .node-r4,
+        .status, .final-copy, .spark-a, .spark-b, .spark-c { animation: none !important; }
+        .status-boot, .status-policy, .status-lineage { display: none; }
+        .status-online, .final-copy { opacity: 1; }
+      }
     </style>
   </defs>
 
-  <g filter="url(#shadow)">
-    <rect x="10" y="10" width="1180" height="420" rx="34" fill="url(#paper)"/>
-  </g>
-  <rect x="10.75" y="10.75" width="1178.5" height="418.5" rx="33.25" stroke="#211F1E" stroke-width="1.5"/>
-  <rect x="24" y="24" width="724" height="392" rx="25" fill="url(#dots)"/>
+  <rect x="8" y="8" width="1184" height="444" rx="34" fill="url(#void)"/>
+  <rect x="8.75" y="8.75" width="1182.5" height="442.5" rx="33.25" stroke="#FFF7E8" stroke-opacity="0.22" stroke-width="1.5"/>
+  <rect x="24" y="24" width="1152" height="412" rx="24" fill="url(#grid)"/>
+
+  <rect x="24" y="229" width="1152" height="2" fill="url(#scan)" class="signal-line"/>
 
   <g class="sans">
-    <rect x="58" y="48" width="190" height="34" rx="17" fill="#211F1E"/>
-    <text x="153" y="70" class="label white" text-anchor="middle">FIELD NOTES / 2026</text>
-    <text x="702" y="70" class="label" text-anchor="end">WUXI, CHINA</text>
+    <rect x="42" y="38" width="266" height="34" rx="17" fill="#FFF7E8" fill-opacity="0.08" stroke="#FFF7E8" stroke-opacity="0.14"/>
+    <circle cx="63" cy="55" r="5" fill="#FF7894"/>
+    <text x="80" y="60" class="label paper">DUAL-CORE BOOT / HUACHABOBO</text>
+    <text x="1152" y="59" class="mono label muted" text-anchor="end">12.0 SEC LOOP</text>
 
-    <text x="58" y="164" class="cn">花茶</text>
-    <text x="58" y="218" class="display">huachabobo</text>
+    <g transform="translate(458 37)">
+      <rect width="284" height="36" rx="18" fill="#090B0F" stroke="#FFF7E8" stroke-opacity="0.16"/>
+      <g class="status status-boot">
+        <circle cx="22" cy="18" r="5" fill="#FF7894"/>
+        <text x="142" y="23" class="mono small paper" text-anchor="middle">BOOTING RUNTIME</text>
+      </g>
+      <g class="status status-policy">
+        <circle cx="22" cy="18" r="5" fill="#F5C768"/>
+        <text x="142" y="23" class="mono small paper" text-anchor="middle">VERIFYING POLICY</text>
+      </g>
+      <g class="status status-lineage">
+        <circle cx="22" cy="18" r="5" fill="#6EE7B7"/>
+        <text x="142" y="23" class="mono small paper" text-anchor="middle">SPAWNING LINEAGE</text>
+      </g>
+      <g class="status status-online">
+        <circle cx="22" cy="18" r="5" fill="#6EE7B7"/>
+        <text x="142" y="23" class="mono small paper" text-anchor="middle">SYSTEM ONLINE</text>
+      </g>
+    </g>
 
-    <text x="60" y="274" class="copy">把可爱留在表面，把证据、边界与恢复能力放进系统里。</text>
-    <text x="60" y="308" class="copy" opacity="0.72">Soft on the surface. Evidence-driven underneath.</text>
-
-    <rect x="58" y="350" width="176" height="38" rx="19" fill="#FF8DA1"/>
-    <text x="146" y="374" class="small" text-anchor="middle">LECIA AGENTOS</text>
-    <rect x="246" y="350" width="158" height="38" rx="19" fill="#92C9A8"/>
-    <text x="325" y="374" class="small" text-anchor="middle">DIGITAL LIFE</text>
-    <rect x="416" y="350" width="172" height="38" rx="19" fill="#F2C760"/>
-    <text x="502" y="374" class="small" text-anchor="middle">SYSTEM EVIDENCE</text>
+    <text x="56" y="108" class="label" fill="#FF9DB0">LECIA / GOVERNED CONTROL PLANE</text>
+    <text x="1144" y="108" class="label" fill="#84EDC0" text-anchor="end">CODELIFE / PUBLIC LIFE LOOP</text>
   </g>
 
   <g>
-    <rect x="778" y="42" width="364" height="356" rx="29" fill="#211F1E"/>
-    <rect x="779" y="43" width="362" height="354" rx="28" stroke="#FFF9F0" stroke-opacity="0.16" stroke-width="2"/>
-    <text x="810" y="78" class="sans label white">CURRENT ORBITS</text>
-    <circle cx="1103" cy="71" r="5" fill="#92C9A8">
-      <animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
+    <path d="M70 220C128 220 151 155 220 155C289 155 300 258 365 248C424 239 463 188 535 212" stroke="#FFF7E8" stroke-opacity="0.1" stroke-width="18" stroke-linecap="round"/>
+    <path d="M70 220C128 220 151 155 220 155C289 155 300 258 365 248C424 239 463 188 535 212" stroke="url(#leciaFlow)" stroke-width="4" stroke-linecap="round" class="route-left"/>
 
-    <circle cx="960" cy="203" r="100" stroke="#FFF9F0" stroke-opacity="0.18" stroke-width="1.5"/>
-    <circle cx="960" cy="203" r="78" stroke="#FFF9F0" stroke-opacity="0.38" stroke-width="2" stroke-dasharray="5 13">
-      <animate attributeName="stroke-dashoffset" values="0;-72" dur="9s" repeatCount="indefinite"/>
-    </circle>
-
-    <g>
-      <circle cx="960" cy="203" r="47" fill="url(#tea)"/>
-      <path d="M945 205C945 187 962 177 978 181C976 199 966 210 945 213V205Z" fill="#211F1E"/>
-      <path d="M944 215H977C977 232 970 240 960 240C950 240 944 232 944 215Z" fill="#FFF9F0"/>
-      <path d="M977 219H984C991 219 993 228 987 232H977" stroke="#FFF9F0" stroke-width="5" stroke-linecap="round"/>
+    <g class="node-l1" style="transform-origin:100px 218px">
+      <circle cx="100" cy="218" r="16" fill="#FF7894"/>
+      <circle cx="100" cy="218" r="6" fill="#FFF7E8"/>
+    </g>
+    <g class="node-l2" style="transform-origin:220px 155px">
+      <circle cx="220" cy="155" r="16" fill="#FF9DB0"/>
+      <circle cx="220" cy="155" r="6" fill="#FFF7E8"/>
+    </g>
+    <g class="node-l3" style="transform-origin:365px 248px">
+      <circle cx="365" cy="248" r="16" fill="#F5C768"/>
+      <circle cx="365" cy="248" r="6" fill="#FFF7E8"/>
+    </g>
+    <g class="node-l4" style="transform-origin:490px 200px">
+      <circle cx="490" cy="200" r="16" fill="#FFE3A0"/>
+      <circle cx="490" cy="200" r="6" fill="#FFF7E8"/>
     </g>
 
-    <g>
-      <circle cx="960" cy="103" r="12" fill="#FF8DA1">
-        <animate attributeName="r" values="10;13;10" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="1053" cy="239" r="12" fill="#92C9A8">
-        <animate attributeName="r" values="10;13;10" dur="3s" begin="1s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="872" cy="249" r="12" fill="#F2C760">
-        <animate attributeName="r" values="10;13;10" dur="3s" begin="2s" repeatCount="indefinite"/>
-      </circle>
+    <g class="sans node-label paper">
+      <text x="100" y="253" text-anchor="middle">OPERATOR</text>
+      <text x="220" y="132" text-anchor="middle">POLICY</text>
+      <text x="365" y="282" text-anchor="middle">RUNTIME</text>
+      <text x="490" y="177" text-anchor="middle">EVIDENCE</text>
     </g>
 
-    <text x="960" y="128" class="sans label white" text-anchor="middle">AGENTOS</text>
-    <text x="1064" y="267" class="sans label white" text-anchor="middle">LIFE</text>
-    <text x="859" y="278" class="sans label white" text-anchor="middle">EVIDENCE</text>
-
-    <rect x="808" y="326" width="304" height="42" rx="12" fill="#FFF9F0" fill-opacity="0.08"/>
-    <text x="826" y="352" class="mono small white">build / observe / govern / repeat</text>
-    <rect x="1095" y="339" width="7" height="17" rx="2" fill="#FF8DA1">
-      <animate attributeName="opacity" values="1;0.15;1" dur="1.05s" repeatCount="indefinite"/>
-    </rect>
   </g>
 
-  <path d="M742 109L755 115L742 121L729 115L742 109Z" fill="#FF8DA1">
-    <animateTransform attributeName="transform" type="rotate" from="0 742 115" to="360 742 115" dur="7s" repeatCount="indefinite"/>
-  </path>
+  <g>
+    <path d="M665 212C731 166 757 137 820 160C886 184 899 272 965 248C1029 224 1057 161 1135 212" stroke="#FFF7E8" stroke-opacity="0.1" stroke-width="18" stroke-linecap="round"/>
+    <path d="M665 212C731 166 757 137 820 160C886 184 899 272 965 248C1029 224 1057 161 1135 212" stroke="url(#lifeFlow)" stroke-width="4" stroke-linecap="round" class="route-right"/>
+
+    <g class="node-r1" style="transform-origin:710px 185px">
+      <circle cx="710" cy="185" r="16" fill="#A8F1D1"/>
+      <circle cx="710" cy="185" r="6" fill="#FFF7E8"/>
+    </g>
+    <g class="node-r2" style="transform-origin:820px 160px">
+      <circle cx="820" cy="160" r="16" fill="#6EE7B7"/>
+      <circle cx="820" cy="160" r="6" fill="#FFF7E8"/>
+    </g>
+    <g class="node-r3" style="transform-origin:965px 248px">
+      <circle cx="965" cy="248" r="16" fill="#6ACFB4"/>
+      <circle cx="965" cy="248" r="6" fill="#FFF7E8"/>
+    </g>
+    <g class="node-r4" style="transform-origin:1095px 187px">
+      <circle cx="1095" cy="187" r="16" fill="#7AA2FF"/>
+      <circle cx="1095" cy="187" r="6" fill="#FFF7E8"/>
+    </g>
+
+    <g class="sans node-label paper">
+      <text x="710" y="219" text-anchor="middle">GENOME</text>
+      <text x="820" y="136" text-anchor="middle">LIFEVM</text>
+      <text x="965" y="282" text-anchor="middle">ENERGY</text>
+      <text x="1095" y="164" text-anchor="middle">LINEAGE</text>
+    </g>
+
+  </g>
+
+  <g>
+    <circle cx="600" cy="212" r="82" stroke="#FFF7E8" stroke-opacity="0.1"/>
+    <circle cx="600" cy="212" r="68" stroke="#FFF7E8" stroke-opacity="0.28" stroke-dasharray="4 11" class="orbit-slow"/>
+    <g class="orbit-fast">
+      <circle cx="600" cy="142" r="5" fill="#FF7894"/>
+      <circle cx="600" cy="282" r="5" fill="#6EE7B7"/>
+    </g>
+
+    <g class="core-rotor">
+      <ellipse cx="600" cy="172" rx="11" ry="25" fill="#FF7894" transform="rotate(0 600 212)" class="petal-a"/>
+      <ellipse cx="600" cy="172" rx="11" ry="25" fill="#F5C768" transform="rotate(60 600 212)" class="petal-b"/>
+      <ellipse cx="600" cy="172" rx="11" ry="25" fill="#6EE7B7" transform="rotate(120 600 212)" class="petal-c"/>
+      <ellipse cx="600" cy="172" rx="11" ry="25" fill="#7AA2FF" transform="rotate(180 600 212)" class="petal-d"/>
+      <ellipse cx="600" cy="172" rx="11" ry="25" fill="#F5C768" transform="rotate(240 600 212)" class="petal-e"/>
+      <ellipse cx="600" cy="172" rx="11" ry="25" fill="#FF9DB0" transform="rotate(300 600 212)" class="petal-f"/>
+    </g>
+    <g class="core-shell">
+      <circle cx="600" cy="212" r="31" fill="url(#coreFill)"/>
+      <circle cx="600" cy="212" r="24" fill="#151419"/>
+      <text x="600" y="220" class="cn paper" font-size="21" font-weight="800" text-anchor="middle">茶</text>
+    </g>
+    <text x="600" y="309" class="mono label muted" text-anchor="middle">HUACHA CORE</text>
+  </g>
+
+  <g class="final-copy">
+    <text x="600" y="365" class="mono headline paper" text-anchor="middle">SYSTEMS THAT CAN EXPLAIN THEMSELVES</text>
+    <text x="600" y="403" class="cn" fill="#C8CAC8" font-size="18" font-weight="600" text-anchor="middle">让系统运行，也让系统解释自己。</text>
+  </g>
+
+  <g>
+    <path d="M335 105L341 118L354 124L341 130L335 143L329 130L316 124L329 118L335 105Z" fill="#FF7894" class="spark-a"/>
+    <path d="M888 91L893 102L904 107L893 112L888 123L883 112L872 107L883 102L888 91Z" fill="#6EE7B7" class="spark-b"/>
+    <circle cx="1055" cy="326" r="4" fill="#7AA2FF" class="spark-c"/>
+    <circle cx="150" cy="327" r="3" fill="#F5C768" class="spark-b"/>
+  </g>
+
+  <text x="42" y="429" class="mono label muted">LECIA AGENTOS</text>
+  <text x="1158" y="429" class="mono label muted" text-anchor="end">CODELIFE LAB</text>
+
+  <style>
+    .route-left, .route-right, .signal-line, .core-shell, .orbit-fast, .orbit-slow,
+    .petal-a, .petal-b, .petal-c, .petal-d, .petal-e, .petal-f,
+    .node-l1, .node-l2, .node-l3, .node-l4, .node-r1, .node-r2, .node-r3, .node-r4,
+    .status, .final-copy, .spark-a, .spark-b, .spark-c { animation: none !important; }
+    .route-left, .route-right { stroke-dashoffset: 0; opacity: 1; }
+    .signal-line { opacity: .28; }
+    .core-shell, .orbit-fast, .orbit-slow,
+    .petal-a, .petal-b, .petal-c, .petal-d, .petal-e, .petal-f,
+    .node-l1, .node-l2, .node-l3, .node-l4, .node-r1, .node-r2, .node-r3, .node-r4,
+    .final-copy, .spark-a, .spark-b, .spark-c { opacity: 1; }
+    .status { display: none; }
+    .status-online { display: block; opacity: 1; }
+  </style>
 </svg>
