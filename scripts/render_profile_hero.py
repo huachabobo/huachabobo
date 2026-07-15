@@ -376,12 +376,13 @@ def main() -> None:
     frames = [render_frame(index / FPS) for index in range(FRAME_COUNT)]
     palette = render_frame(8.0).quantize(colors=128, method=Image.Quantize.MEDIANCUT)
     paletted = [frame.quantize(palette=palette, dither=Image.Dither.NONE) for frame in frames]
+    frame_durations = [170 if index % 3 != 2 else 160 for index in range(FRAME_COUNT)]
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     paletted[0].save(
         OUTPUT,
         save_all=True,
         append_images=paletted[1:],
-        duration=round(1000 / FPS),
+        duration=frame_durations,
         loop=0,
         optimize=False,
         disposal=2,

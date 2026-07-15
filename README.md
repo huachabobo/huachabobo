@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/profile-hero.svg?v=20260715-dual-core-gif" />
-  <img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/profile-hero.gif?v=20260715-dual-core-gif" alt="huachabobo / Lecia AgentOS and CodeLife dual-core boot sequence" width="100%" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/profile-hero.svg?v=20260715-dual-core-gif-r2" />
+  <img src="https://raw.githubusercontent.com/huachabobo/huachabobo/main/assets/profile-hero.gif?v=20260715-dual-core-gif-r2" alt="huachabobo / Lecia AgentOS and CodeLife dual-core boot sequence" width="100%" />
 </picture>
 
 <p>
